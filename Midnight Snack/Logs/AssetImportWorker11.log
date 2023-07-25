@@ -338,3 +338,37 @@ Received Import Request.
   path: Assets/Polygon-City Megapolis/Prefab/Buildings/SM_skyscraper_04.prefab
   artifactKey: Guid(7c9cf958b4e2033499602fed3c55de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Polygon-City Megapolis/Prefab/Buildings/SM_skyscraper_04.prefab using Guid(7c9cf958b4e2033499602fed3c55de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f3d213cd9713abeb063536d8074d6d') in 0.016160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 746.979087 seconds.
+  path: Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_01.prefab
+  artifactKey: Guid(38e6e0f60c4debf4ab74183e2bd7619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_01.prefab using Guid(38e6e0f60c4debf4ab74183e2bd7619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efe46b172f06d923dbadf659316c0f7') in 0.020492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-Houses/Prefabs/Vehicles/SM_helicopter_01.prefab
+  artifactKey: Guid(972e319e71e3af54c9e6bc4b1ee785be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Houses/Prefabs/Vehicles/SM_helicopter_01.prefab using Guid(972e319e71e3af54c9e6bc4b1ee785be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9102209ec8021e8eae18163dc199769') in 0.026465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_05.prefab
+  artifactKey: Guid(c4023f394eba5eb49bf5fca7757ba97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_05.prefab using Guid(c4023f394eba5eb49bf5fca7757ba97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689dc3fe99a677bfabb21060c4a8d64f') in 0.018732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_03.prefab
+  artifactKey: Guid(7e2375f479e61a840a2ad18d2f9d479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_03.prefab using Guid(7e2375f479e61a840a2ad18d2f9d479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4bde75f74222932be24db81d2b9888') in 0.018581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_04.prefab
+  artifactKey: Guid(2a614430b4887984c850f5ba4d06625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Houses/Prefabs/Vehicles/SM_car_04.prefab using Guid(2a614430b4887984c850f5ba4d06625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b60924fe9f39cd53d62d6b064411b8') in 0.014209 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
