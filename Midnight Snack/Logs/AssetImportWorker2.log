@@ -1,0 +1,1184 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Midnight-Snack/Midnight Snack
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50307
+Successfully changed project path to: E:/Midnight-Snack/Midnight Snack
+E:/Midnight-Snack/Midnight Snack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17308] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 4050869451 [EditorId] 4050869451 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17308] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 4050869451 [EditorId] 4050869451 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Midnight-Snack/Midnight Snack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12100 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002131 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (506ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3508.
+Memory consumption went from 107.5 MB to 107.4 MB.
+Total: 2.494600 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.043600 ms  DeleteObjects: 0.112100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 869765.611857 seconds.
+  path: Assets/Polygon-NewYork/Models
+  artifactKey: Guid(26ab88923810fda46afa2015b005ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models using Guid(26ab88923810fda46afa2015b005ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaf200d3407fb6234864f630e2397c1') in 0.014908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058626 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_01_A_03.fbx
+  artifactKey: Guid(616c556bd77bbd445ab4575b3de4079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_01_A_03.fbx using Guid(616c556bd77bbd445ab4575b3de4079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7838471fe1333e2db6fc87d49fd5d6b0') in 0.251109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_02_C_03.fbx
+  artifactKey: Guid(2e0cfd00d00163941bc1303dcac9a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_02_C_03.fbx using Guid(2e0cfd00d00163941bc1303dcac9a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad904e09e715bcc3d2be20b3671c0fe') in 0.028438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_01_B.fbx
+  artifactKey: Guid(7217508b46b961f4fb6bfae1567e7df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_01_B.fbx using Guid(7217508b46b961f4fb6bfae1567e7df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dbcb9d482e32d3338635fee1aa3d5e') in 0.017636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_05_B.fbx
+  artifactKey: Guid(733744e21ece21d4baf7defbc286b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_05_B.fbx using Guid(733744e21ece21d4baf7defbc286b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7838c1bacef7675595c8084076d7e7') in 0.024470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_03_D_03.fbx
+  artifactKey: Guid(bd3b7c147bc35ec4eae77573c2ac7191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_03_D_03.fbx using Guid(bd3b7c147bc35ec4eae77573c2ac7191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b880eb91a55a179ba779f3071cbb114') in 0.016655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_02_A_03.fbx
+  artifactKey: Guid(60d07c357d8f8c6419f5fcb734f2b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_02_A_03.fbx using Guid(60d07c357d8f8c6419f5fcb734f2b9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6d65ca89eeabcdc087c5f39876d76') in 0.016897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Road_06.fbx
+  artifactKey: Guid(c28af2a4a5c032345813310ae18c8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Road_06.fbx using Guid(c28af2a4a5c032345813310ae18c8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f15e5b01670b6da8483219a136ff16') in 0.017591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_04_B.fbx
+  artifactKey: Guid(b5a167648fafb9140aa363c6e5bb3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_04_B.fbx using Guid(b5a167648fafb9140aa363c6e5bb3e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda9c054d4f142fc0e8b0666bcfb1420') in 0.018150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Roof_02_D_03.fbx
+  artifactKey: Guid(4e0ea477b9bb0714196a3818e199b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Roof_02_D_03.fbx using Guid(4e0ea477b9bb0714196a3818e199b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eba86e1d499cc9aeb9a539b7145d539') in 0.018606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_04_С_01.fbx
+  artifactKey: Guid(70ce61a527b3d0b4bac2b54a59d9f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_04_С_01.fbx using Guid(70ce61a527b3d0b4bac2b54a59d9f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efee89335a79e3f984aa728829ca1b7') in 0.016950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_03_A_Angle_03.fbx
+  artifactKey: Guid(a6ede37d99eff124c802c7a215175b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_03_A_Angle_03.fbx using Guid(a6ede37d99eff124c802c7a215175b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e8c83260102cd12c8a459546bbbb2e') in 0.019022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_04_E_01.fbx
+  artifactKey: Guid(93df282c4efaaf24f94a967415712e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_04_E_01.fbx using Guid(93df282c4efaaf24f94a967415712e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e40de0dc4b18ed8a270a3a9fb7eeb') in 0.019009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Roof_Plane_03.fbx
+  artifactKey: Guid(d58d51b597947d947b98f55045109669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Roof_Plane_03.fbx using Guid(d58d51b597947d947b98f55045109669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5a191daba707859f9e28b7570ef5b4') in 0.018593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-NewYork/Models/Roof_02_E_03.fbx
+  artifactKey: Guid(110b8abdc0ce24e49873a5e04257e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Roof_02_E_03.fbx using Guid(110b8abdc0ce24e49873a5e04257e3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ef3da8b4607c8920b9a442936ccfe3') in 0.019048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/cornice_02_B_03.fbx
+  artifactKey: Guid(b6dd2263d327e56459e14fdcf37ab3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/cornice_02_B_03.fbx using Guid(b6dd2263d327e56459e14fdcf37ab3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2745efef53c652c9092a4689ede05dda') in 0.018314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Fence_01_D.fbx
+  artifactKey: Guid(6d3d85045c8999d4bb35893fb886992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Fence_01_D.fbx using Guid(6d3d85045c8999d4bb35893fb886992c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91a79ea534e9b20387562c88ca1433d') in 0.018380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_04_A.fbx
+  artifactKey: Guid(5e054bfacc94c024481936ecf4e4717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_04_A.fbx using Guid(5e054bfacc94c024481936ecf4e4717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee76690059409c8241ae2eda5976404') in 0.017359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_03_E_01.fbx
+  artifactKey: Guid(a427b4ea5d1b22c4981850fbb4dd6d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_03_E_01.fbx using Guid(a427b4ea5d1b22c4981850fbb4dd6d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8170819eee3cadb775fdc2460c4e32') in 0.019213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Fence_01_A.fbx
+  artifactKey: Guid(88302511913771747bbbd301137690b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Fence_01_A.fbx using Guid(88302511913771747bbbd301137690b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8e26454f0728066e906195bea861a9') in 0.019233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Ground_001.fbx
+  artifactKey: Guid(b74ea2d5c36ffb043b99cc62cac9ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Ground_001.fbx using Guid(b74ea2d5c36ffb043b99cc62cac9ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3863c8c0776bc0b51d981a848d9d792') in 0.017993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Roof_01_E_03.fbx
+  artifactKey: Guid(c296c0a8c44064c4eb416799e4c22474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Roof_01_E_03.fbx using Guid(c296c0a8c44064c4eb416799e4c22474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae024affd51a907a7524c9d2268a5b9') in 0.016255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.498597 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_05_С_01.fbx
+  artifactKey: Guid(747083c5b23b1dd42ad1757c07944801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_05_С_01.fbx using Guid(747083c5b23b1dd42ad1757c07944801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad58a8a8341493ed6379b487ab15cfb') in 0.017087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_07_E_01.fbx
+  artifactKey: Guid(277f617353442b243af6705cbde542cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_07_E_01.fbx using Guid(277f617353442b243af6705cbde542cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8354ec042d7a6201ceff2b578c90c609') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_07_A.fbx
+  artifactKey: Guid(e81eea32333ad8c489a4dd2d36aa7bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_07_A.fbx using Guid(e81eea32333ad8c489a4dd2d36aa7bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb0b842fc8a5ec159cfe7bc27f6a5b') in 0.016650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_06_С_01.fbx
+  artifactKey: Guid(cd8ad052148103f409a479ff258f7cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_06_С_01.fbx using Guid(cd8ad052148103f409a479ff258f7cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c910ea5e873f44c5135bdc92846f25') in 0.016591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_07_B.fbx
+  artifactKey: Guid(75af0fbac10c4f64b899240b8c393325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_07_B.fbx using Guid(75af0fbac10c4f64b899240b8c393325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4895078160e98655582cad3689c3fd7a') in 0.018746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322406 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_09_B_01.fbx
+  artifactKey: Guid(d8e80c432e68235499b9aaeb187c2f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_09_B_01.fbx using Guid(d8e80c432e68235499b9aaeb187c2f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419b7a5b5500ce98375357ed126db00') in 0.016707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_010_B_01.fbx
+  artifactKey: Guid(605aee197fa7cf842b243f02bcdba88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_010_B_01.fbx using Guid(605aee197fa7cf842b243f02bcdba88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5546a97f02517f34cd1644931e469f8a') in 0.017564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_011_B_01.fbx
+  artifactKey: Guid(bebf7744daf99654dbc2a52de7f28da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_011_B_01.fbx using Guid(bebf7744daf99654dbc2a52de7f28da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ebe2ad311a42fb97f9ed6671b4b69') in 0.018583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_012_A.fbx
+  artifactKey: Guid(7ca3bba8b0da28545b118c759906e454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_012_A.fbx using Guid(7ca3bba8b0da28545b118c759906e454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92104a2b3ce45c73f9c6b9d6cf3677d7') in 0.028120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Sidewalk_012_B.fbx
+  artifactKey: Guid(25a0bce751c425e4ab191dcb9aac446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Sidewalk_012_B.fbx using Guid(25a0bce751c425e4ab191dcb9aac446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2ebd2f50464429210657f8fe61eb7') in 0.018316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296480 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_01_A_02.fbx
+  artifactKey: Guid(59f65bea90be4204e89599c450cd7c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_01_A_02.fbx using Guid(59f65bea90be4204e89599c450cd7c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d4fbe0c67592a1c7947e3a12fb4f24') in 0.029009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_02_B_01.fbx
+  artifactKey: Guid(3978ff56ac44cad4eb04c06c961899e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_02_B_01.fbx using Guid(3978ff56ac44cad4eb04c06c961899e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616549307d5365fc976689b2d05412e6') in 0.018025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_01_C_01.fbx
+  artifactKey: Guid(98b2c4e5019bd714f98612e4467d2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_01_C_01.fbx using Guid(98b2c4e5019bd714f98612e4467d2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee604fefd6ade00de8de938ee19817f6') in 0.019180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_013_A.fbx
+  artifactKey: Guid(866a5bc323d848944a713a1ffac8c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_013_A.fbx using Guid(866a5bc323d848944a713a1ffac8c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8ea0ad969a2c9b69b070e4d413680') in 0.022328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_02_C_03.fbx
+  artifactKey: Guid(a61c09e0827e67f46aa372805fa388d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_02_C_03.fbx using Guid(a61c09e0827e67f46aa372805fa388d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b956d1c99f5d749dd7d22bec8bfa3') in 0.018724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_01_C_02.fbx
+  artifactKey: Guid(230ef5dbff67c764eaec3ad28191d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_01_C_02.fbx using Guid(230ef5dbff67c764eaec3ad28191d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6424ed41664f5c719976b906ab8569') in 0.018945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_02.fbx
+  artifactKey: Guid(a73215026b24b62449e042f3e512ae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_02.fbx using Guid(a73215026b24b62449e042f3e512ae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f65fb7376fd789abc9b4a54654db22') in 0.018015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_013_B.fbx
+  artifactKey: Guid(171128023d5fc94499e135abcd074904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_013_B.fbx using Guid(171128023d5fc94499e135abcd074904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53d6ae9ec7bed09d27add837af345a2') in 0.018410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Steps_02_C_02.fbx
+  artifactKey: Guid(83f10ef4d567faf4287a2c1caa355b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Steps_02_C_02.fbx using Guid(83f10ef4d567faf4287a2c1caa355b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f12c004f4bfc77dfa28ed6bfe2fbcad') in 0.018357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_07.fbx
+  artifactKey: Guid(a317a99471b382341b9baec4598368d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_07.fbx using Guid(a317a99471b382341b9baec4598368d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3797dfbdedab340fcb101068b225df45') in 0.018811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.241359 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_014.fbx
+  artifactKey: Guid(5d07aa76f1922974b9275b5d5a151ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_014.fbx using Guid(5d07aa76f1922974b9275b5d5a151ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50df30e3faca83964b31fd1f92a3b33d') in 0.017447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_022.fbx
+  artifactKey: Guid(f00cefb33e9f913439432dfa0679ae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_022.fbx using Guid(f00cefb33e9f913439432dfa0679ae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf93de1852c0005b5db81fde2d92341e') in 0.017741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_decoration_06.fbx
+  artifactKey: Guid(ab024ef12f702b14e97eaf7548a17e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_decoration_06.fbx using Guid(ab024ef12f702b14e97eaf7548a17e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801e964ef0481e17f5b4e0829035f8f4') in 0.019019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls_decoration_03.fbx
+  artifactKey: Guid(9f04bfe04c41d05469c68ef4670f38b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls_decoration_03.fbx using Guid(9f04bfe04c41d05469c68ef4670f38b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd1afb6b379c434f921a7760a5a0968') in 0.021158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Street_Decoration_021.fbx
+  artifactKey: Guid(68f45ae12c3761648a86f22e9a17365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Street_Decoration_021.fbx using Guid(68f45ae12c3761648a86f22e9a17365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054fc37412c2f658a933a06558bbcea6') in 0.018366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370942 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_decoration_07_A.fbx
+  artifactKey: Guid(8a506321e15b39e44a30b85715fd739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_decoration_07_A.fbx using Guid(8a506321e15b39e44a30b85715fd739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff47a7e38c91771177f292f0a6cfb895') in 0.017571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_decoration_017.fbx
+  artifactKey: Guid(e3ce33e5830b8fd4c8aa2654bdf74f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_decoration_017.fbx using Guid(e3ce33e5830b8fd4c8aa2654bdf74f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ed82a04fdace9a5996376b8e6316f5') in 0.018130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_decoration_011.fbx
+  artifactKey: Guid(e062ddaa68339a849965ba138cabb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_decoration_011.fbx using Guid(e062ddaa68339a849965ba138cabb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ee16b607f2f96ad72dbcc283a13eb6') in 0.018275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_Frame_01_03.fbx
+  artifactKey: Guid(ae06a86f4da76dd43840bbc8e46f91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_Frame_01_03.fbx using Guid(ae06a86f4da76dd43840bbc8e46f91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70cbe30cb6f3318ed1fb8c0fb9e456f') in 0.018933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_decoration_012.fbx
+  artifactKey: Guid(714812013e433434489c4f1c025862ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_decoration_012.fbx using Guid(714812013e433434489c4f1c025862ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b6332e13d5724dac77e293a0bd2258') in 0.019025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283528 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_Frame_03_03.fbx
+  artifactKey: Guid(48ca99100f49cbc4a80176398729bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_Frame_03_03.fbx using Guid(48ca99100f49cbc4a80176398729bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0782d262cedc6105568a2f1d7735d44') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Window_Frame_06_03.fbx
+  artifactKey: Guid(4dad1155aeadaf04cb009ca398c13a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Window_Frame_06_03.fbx using Guid(4dad1155aeadaf04cb009ca398c13a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e98c471b97b032e8588b5cd4748679a') in 0.018150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.372500 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls
+  artifactKey: Guid(64fc0da5ec8355c41944f4c789029375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls using Guid(64fc0da5ec8355c41944f4c789029375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e458f81cc24b824436b33d8d80f10d') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059732 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Door_01_01.fbx
+  artifactKey: Guid(0a9009141ef11604fb4d67d9ad28ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Door_01_01.fbx using Guid(0a9009141ef11604fb4d67d9ad28ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1132039bac9c72711de09a86e703a34c') in 0.032225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_02_(2x3)_01.fbx
+  artifactKey: Guid(477e633f53ab2424ea65fbc9b6f29ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_02_(2x3)_01.fbx using Guid(477e633f53ab2424ea65fbc9b6f29ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba821e4a9b62cbe6b965651bdc0385a') in 0.026623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_G_Decor_A_01.fbx
+  artifactKey: Guid(a3dfab283a9f2f54a977d4484c885eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_G_Decor_A_01.fbx using Guid(a3dfab283a9f2f54a977d4484c885eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da95833c72897228dec9a132bf61aa9c') in 0.019245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_B_01_01.fbx
+  artifactKey: Guid(73caaa93a499e0e4b975cc5c8c63455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_B_01_01.fbx using Guid(73caaa93a499e0e4b975cc5c8c63455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97de8ff2ca267ef3a129e6300d879f4b') in 0.021301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_C_Angle_01_01.fbx
+  artifactKey: Guid(089658be91da1e045ba9c48f5ce76d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_C_Angle_01_01.fbx using Guid(089658be91da1e045ba9c48f5ce76d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47958e370a9098a3730cb9c3a5ec612') in 0.018903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_C_Angle_02_01.fbx
+  artifactKey: Guid(9dc13174e78c54e49bdc513bf1c1eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_C_Angle_02_01.fbx using Guid(9dc13174e78c54e49bdc513bf1c1eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff92ff5dbaa2ae9c7c2adfee4e1b164c') in 0.017328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_F_Decor_A_01.fbx
+  artifactKey: Guid(9c4a85c4534fb0e45b8e94f48a7e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_F_Decor_A_01.fbx using Guid(9c4a85c4534fb0e45b8e94f48a7e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5672b1cd573dc0798507e8ca86386') in 0.019389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_01_01.fbx
+  artifactKey: Guid(7e63f2d0a0c4c8c44bb5679680cf327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_01_01.fbx using Guid(7e63f2d0a0c4c8c44bb5679680cf327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b05a345ed45746ee6f5304d5575a714') in 0.019549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_B_01.fbx
+  artifactKey: Guid(592d157280905ad469f3c3f973f79007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_B_01.fbx using Guid(592d157280905ad469f3c3f973f79007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a9950a2ce488b6cd6e9f42a72f4bc6') in 0.019526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_01_(2x3)_Angle_01.fbx
+  artifactKey: Guid(28552b733e9fa154ca5c632961a4d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_01_(2x3)_Angle_01.fbx using Guid(28552b733e9fa154ca5c632961a4d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1465bdffd705e82d2b71fa90cf1c3e98') in 0.020320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_D_01_01.fbx
+  artifactKey: Guid(6a942b087e631c44b924e7a93f7db5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_D_01_01.fbx using Guid(6a942b087e631c44b924e7a93f7db5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f6e3429e1e8300ab92210779b95bb') in 0.020205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_B_Angle_02_01.fbx
+  artifactKey: Guid(10eaf41028cd4894c856b87c5f033d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_B_Angle_02_01.fbx using Guid(10eaf41028cd4894c856b87c5f033d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a442c43a2104d665e2fde6ed4912db33') in 0.017415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_04_(2x2)_Angle_01.fbx
+  artifactKey: Guid(4d7428d38848dfb46933b11298aa0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_04_(2x2)_Angle_01.fbx using Guid(4d7428d38848dfb46933b11298aa0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9208c6cca3c54b6d16ff011054b31849') in 0.018353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_F_Angle_02_01.fbx
+  artifactKey: Guid(665d99de71f25c044ad51fb2fcbc30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_F_Angle_02_01.fbx using Guid(665d99de71f25c044ad51fb2fcbc30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d82f1b42230f173d0598d864e7c246') in 0.019984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_A_Decor_A_01.fbx
+  artifactKey: Guid(4c297b1d37dc80a44927a6fba1f94ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_A_Decor_A_01.fbx using Guid(4c297b1d37dc80a44927a6fba1f94ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79710add61246fcb04c98db49a8a1193') in 0.022393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_G_02_01.fbx
+  artifactKey: Guid(a5af77a0b5129354fa22b19a2cc70231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_G_02_01.fbx using Guid(a5af77a0b5129354fa22b19a2cc70231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1fd375b4a02068f4fafd90924c7875') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_Angle_01_01.fbx
+  artifactKey: Guid(5a9b2392e141a954494377a0ebbef7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_Angle_01_01.fbx using Guid(5a9b2392e141a954494377a0ebbef7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5e9beee66522237686e4fd2e682104') in 0.021962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_G_Angle_02_01.fbx
+  artifactKey: Guid(83e9eaa199a5be9439490cdaf031eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_G_Angle_02_01.fbx using Guid(83e9eaa199a5be9439490cdaf031eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb7cc3a4e3fd42e94709947ea1134d7') in 0.017105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_06_(2x3)_01.fbx
+  artifactKey: Guid(e659cca54be2dd54a851f76f544f5dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_06_(2x3)_01.fbx using Guid(e659cca54be2dd54a851f76f544f5dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc50ce4cd752bab7b742724858e057d') in 0.018458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_Angle_02_01.fbx
+  artifactKey: Guid(1a2c5185c637d924a92174fb3c7bf6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_E_Angle_02_01.fbx using Guid(1a2c5185c637d924a92174fb3c7bf6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc72d1ff27f3dfda24483735e0a550b') in 0.023365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_03_(2x3)_01.fbx
+  artifactKey: Guid(e2bbd4c4082b2a84ab35625cabdbda1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_03_(2x3)_01.fbx using Guid(e2bbd4c4082b2a84ab35625cabdbda1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960e10fd2e8f6b2dbd081a30bae136c') in 0.018682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_02_(2x3)_Angle_01.fbx
+  artifactKey: Guid(f4e514ab4f748724cb6c3d7a4ace47f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_02_(2x3)_Angle_01.fbx using Guid(f4e514ab4f748724cb6c3d7a4ace47f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a11cdd359702f7a8f4145992e634a1') in 0.017530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_C_Decor_A_01.fbx
+  artifactKey: Guid(0698be150d621134196d497362e8be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_C_Decor_A_01.fbx using Guid(0698be150d621134196d497362e8be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf0f6a6a339478a27fb5e41afbfb938') in 0.020929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_A_01_01.fbx
+  artifactKey: Guid(bfa253e1e840efa4c810e8ff62c4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(2х3)_Arch_A_01_01.fbx using Guid(bfa253e1e840efa4c810e8ff62c4f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69efaf8b36bc4d6866696846cec782c3') in 0.019725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Foundation_03_(2x3)_Angle_01.fbx
+  artifactKey: Guid(942eeabf23eed844ab4558ef0e5f2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Foundation_03_(2x3)_Angle_01.fbx using Guid(942eeabf23eed844ab4558ef0e5f2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf0aa78a33dd9d3efe1e07d1f0dbd5b') in 0.021541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547806 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(4х3)_A_01.fbx
+  artifactKey: Guid(99531505dfdd50e45bd483bd1a7bddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(4х3)_A_01.fbx using Guid(99531505dfdd50e45bd483bd1a7bddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c9658732daf62cb7c9e50756a4ab9') in 0.018772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_A_Angle_C_01.fbx
+  artifactKey: Guid(6287a2956b3044344afdda8010940e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_A_Angle_C_01.fbx using Guid(6287a2956b3044344afdda8010940e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1635c4352ee8934d058962bb776a25') in 0.020454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_01_(4х3)_Сubicle_01.fbx
+  artifactKey: Guid(b87b0d2b703c83049ab599fc5203f029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_01_(4х3)_Сubicle_01.fbx using Guid(b87b0d2b703c83049ab599fc5203f029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14bf989ef94a169744a44396dd2193e') in 0.019754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_B_01.fbx
+  artifactKey: Guid(f28716aae37cd0c4d92d24b115ce7c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_B_01.fbx using Guid(f28716aae37cd0c4d92d24b115ce7c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597fb81fd12a6295329031448e5546ac') in 0.030390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_A_Angle_A_01.fbx
+  artifactKey: Guid(0396b620a02de9d4d884ab1cb528ed7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(2х3)_A_Angle_A_01.fbx using Guid(0396b620a02de9d4d884ab1cb528ed7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde9c5ca16ebdd6c1657f9c0702b2023') in 0.019261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.337207 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_A_01.fbx
+  artifactKey: Guid(db46f5834c1390b4da634bf0bbaecdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_A_01.fbx using Guid(db46f5834c1390b4da634bf0bbaecdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9693b20055d85d00216a226954bfd1') in 0.019390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_B_01.fbx
+  artifactKey: Guid(bd9f48d5ef6912b4f8a096843a4f4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_B_01.fbx using Guid(bd9f48d5ef6912b4f8a096843a4f4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca45a13de34f22ad194d6cda49cfff8b') in 0.024423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(2х3)_A_Angle_B_01.fbx
+  artifactKey: Guid(7d1b0326590bc0f48b109ce3f7df7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(2х3)_A_Angle_B_01.fbx using Guid(7d1b0326590bc0f48b109ce3f7df7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c62ce178f553e1dd42373c82ecaef') in 0.019646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_B_Decor_A_01.fbx
+  artifactKey: Guid(9bb22b33c6fbeaf48bd29bf4a2419f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_B_Decor_A_01.fbx using Guid(9bb22b33c6fbeaf48bd29bf4a2419f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7f9e99567d8893f0098957eec904d8') in 0.021184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_(30_Angle)_01.fbx
+  artifactKey: Guid(9e1b65dd5d8da8049bea3fb1595551e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_(30_Angle)_01.fbx using Guid(9e1b65dd5d8da8049bea3fb1595551e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567ed3c659e2981f1be106c768d5c34d') in 0.019703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_03_(2х3)_A_Angle_B_01.fbx
+  artifactKey: Guid(e50385b96180eff4eb25ea76346615fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_03_(2х3)_A_Angle_B_01.fbx using Guid(e50385b96180eff4eb25ea76346615fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673135790141c39b2fbe07778ce2575b') in 0.020339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(2х3)_A_Angle_C_01.fbx
+  artifactKey: Guid(656ea647ede9ca24b9328faffea8b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(2х3)_A_Angle_C_01.fbx using Guid(656ea647ede9ca24b9328faffea8b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11859d57e19a3dd746700ab15314b30a') in 0.021941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_C_Decor_A_01.fbx
+  artifactKey: Guid(94d7b800945fe704d8d44a1331c87b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_02_(4х3)_C_Decor_A_01.fbx using Guid(94d7b800945fe704d8d44a1331c87b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43344ee55eed1b3a8a59c34ffc0274ab') in 0.019779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_(Rounded_Corner)_01.fbx
+  artifactKey: Guid(eeffb47d4de85e441ac70d5098bd7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_(Rounded_Corner)_01.fbx using Guid(eeffb47d4de85e441ac70d5098bd7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507f724599720964ffdd0175a0d3a083') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_03_(4х3)_Сubicle_01.fbx
+  artifactKey: Guid(790e100f6d37df04089ed7973f4b2d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_03_(4х3)_Сubicle_01.fbx using Guid(790e100f6d37df04089ed7973f4b2d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa18f9b26210dfb4f0a18c9f5299fc7a') in 0.021039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066843 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_Decor_A_01.fbx
+  artifactKey: Guid(3497518a7c9963647b24ffdb5b84f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_A_Decor_A_01.fbx using Guid(3497518a7c9963647b24ffdb5b84f10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f242a6564845bdffd9b01ae79173404') in 0.020025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_05_(2х3)_A_01.fbx
+  artifactKey: Guid(5306c4ac01769dc418f289fbb0b6a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_05_(2х3)_A_01.fbx using Guid(5306c4ac01769dc418f289fbb0b6a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685bd245114d26332ca8c747682f5709') in 0.019274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_B_Decor_A_01.fbx
+  artifactKey: Guid(340589944cad8dd4ea364e3fd5f54ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_B_Decor_A_01.fbx using Guid(340589944cad8dd4ea364e3fd5f54ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d08d4ce51743e5557cfc3e4bec41cb') in 0.020556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_C_Decor_A_01.fbx
+  artifactKey: Guid(7c7a92a3fdb62e9419f000a323e21c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_04_(4х3)_C_Decor_A_01.fbx using Guid(7c7a92a3fdb62e9419f000a323e21c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7702b5905e0085afb509dd9d6f071a') in 0.021571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_06_(2х3)_A_Angle_A_01.fbx
+  artifactKey: Guid(5fc4d2cc4258a554d9ce61ff70e27b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_06_(2х3)_A_Angle_A_01.fbx using Guid(5fc4d2cc4258a554d9ce61ff70e27b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d317df80b408be9e1c83babd36111a') in 0.021428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)_A_Decor_A_01.fbx
+  artifactKey: Guid(ac845cef0b12e224c96d9dd3d7535da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)_A_Decor_A_01.fbx using Guid(ac845cef0b12e224c96d9dd3d7535da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4dfdbdcb8d418b8f201d08338ad2d6') in 0.020810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_06_(4х3)_A_01.fbx
+  artifactKey: Guid(da9a6ddbf452ff24ca89d3d8f7f2ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_06_(4х3)_A_01.fbx using Guid(da9a6ddbf452ff24ca89d3d8f7f2ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130cf7dddfee1d922535df7b36886add') in 0.020221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)_(Rounded_Corner)_01.fbx
+  artifactKey: Guid(24d82bc529bc12b4c907e61a9bb4cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)_(Rounded_Corner)_01.fbx using Guid(24d82bc529bc12b4c907e61a9bb4cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e599a4cdfe5da01644fbefa841382d') in 0.020186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)__(30_Angle)_01.fbx
+  artifactKey: Guid(592036b522560394fa75b2f8db35f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_05_(4х3)__(30_Angle)_01.fbx using Guid(592036b522560394fa75b2f8db35f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a7f9d7552e2dd157845a81dd87fd63') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_06_(2х3)_A_Angle_C_01.fbx
+  artifactKey: Guid(4451e92687e96e842bd89b5ed9365b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_06_(2х3)_A_Angle_C_01.fbx using Guid(4451e92687e96e842bd89b5ed9365b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0e24c16f8094db578542f8d79df97') in 0.020622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115112 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_07_(2х3)_A_Angle_C_01.fbx
+  artifactKey: Guid(a747d6ce9baab7d46adcbdebcd788ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_07_(2х3)_A_Angle_C_01.fbx using Guid(a747d6ce9baab7d46adcbdebcd788ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547c4261cb085af78ced99361db740a') in 0.019405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Walls/Walls_07_(4х3)_A_Decor_A_01.fbx
+  artifactKey: Guid(affc8a0834f01234583e8b005b56db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Walls/Walls_07_(4х3)_A_Decor_A_01.fbx using Guid(affc8a0834f01234583e8b005b56db62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b3f4574fd13866d42413cbb37d2128') in 0.021095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.131446 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional
+  artifactKey: Guid(574b5ce2497cae445b74d0b737bf035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional using Guid(574b5ce2497cae445b74d0b737bf035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83996e66810859eb03bf1465cdda7558') in 0.005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067468 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Chair.fbx
+  artifactKey: Guid(9b6e4b6a0467b8e4da59b82d4c1ccfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Chair.fbx using Guid(9b6e4b6a0467b8e4da59b82d4c1ccfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ae45403e575a633576c432acdffd9') in 0.025418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Foundation_11_(2x3)_Angle_01.fbx
+  artifactKey: Guid(c400b583c5d11104aa4435eb4fc03b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Foundation_11_(2x3)_Angle_01.fbx using Guid(c400b583c5d11104aa4435eb4fc03b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2af81c6da264d0e88cf1eb9ebeff46') in 0.038050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Rest_03.fbx
+  artifactKey: Guid(1b3d21b47e31fd647856a6f4d54342f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Rest_03.fbx using Guid(1b3d21b47e31fd647856a6f4d54342f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fac5ba9873cf6a037d23c76f697abb') in 0.013767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_03_(2х3)_A_Clear_Angle_04.fbx
+  artifactKey: Guid(9ec8c9509b24a02428841b6dc8242ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_03_(2х3)_A_Clear_Angle_04.fbx using Guid(9ec8c9509b24a02428841b6dc8242ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b77d51e7f00eca0801ed9b17a7d3a56') in 0.013904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Handrail_02_02.fbx
+  artifactKey: Guid(8457c4ad0c385ba4cab09cb623f94955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Handrail_02_02.fbx using Guid(8457c4ad0c385ba4cab09cb623f94955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81568bdbf3611a1d0143a002407c8d03') in 0.015819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_04_(2х3)_A_Clear_Angle_04.fbx
+  artifactKey: Guid(4a55fbaf9a65ede4aa3274dac4255a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_04_(2х3)_A_Clear_Angle_04.fbx using Guid(4a55fbaf9a65ede4aa3274dac4255a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f24d57450d829fdbc9cdd81c8a7be8') in 0.016303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/StepsBig_02.fbx
+  artifactKey: Guid(73d86c8ecc7d11b4aa7c5be17189d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/StepsBig_02.fbx using Guid(73d86c8ecc7d11b4aa7c5be17189d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdafe6b5ee70449c6f5ce23e6cfaac3d') in 0.019905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Umbrella.fbx
+  artifactKey: Guid(5d928f9476c03f44c888e46e21e9a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Umbrella.fbx using Guid(5d928f9476c03f44c888e46e21e9a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a98cb574f714f6c7fa0f0ea63f143a') in 0.013927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Window_decoration_04_A.fbx
+  artifactKey: Guid(84804331fe557ea46a1487ef77a09a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Window_decoration_04_A.fbx using Guid(84804331fe557ea46a1487ef77a09a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739006111e07e85b20afa559151310a8') in 0.013628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_04_(2х3)_A_Clear_Angle_02.fbx
+  artifactKey: Guid(f5d5bcd25bd355448b256b2c401d5381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_04_(2х3)_A_Clear_Angle_02.fbx using Guid(f5d5bcd25bd355448b256b2c401d5381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6997b0236ea3b8156475c1e85133e0') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Rest_Table_02.fbx
+  artifactKey: Guid(f44600af8a023be4cbd1841b35e9d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Rest_Table_02.fbx using Guid(f44600af8a023be4cbd1841b35e9d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b257704934b09f97c6524138c1c7d6e2') in 0.015703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_02_(2х3)_A_Clear_Angle_02.fbx
+  artifactKey: Guid(c69a63cce6593de41b3299595fbeaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_02_(2х3)_A_Clear_Angle_02.fbx using Guid(c69a63cce6593de41b3299595fbeaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ab07e9e0fea02d55eec750fd9394e2') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_07_(2х3)_A_Clear_Angle_03.fbx
+  artifactKey: Guid(069f2854eea57d04b9485fd5fa46cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_07_(2х3)_A_Clear_Angle_03.fbx using Guid(069f2854eea57d04b9485fd5fa46cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ef812d9c68e72108f595136082a2a') in 0.014310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/StepsBig_01.fbx
+  artifactKey: Guid(eb053e4f6e2e46548a4f27fbf7b3db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/StepsBig_01.fbx using Guid(eb053e4f6e2e46548a4f27fbf7b3db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cbb30d886c822d4f54efabd033e0ea') in 0.013853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_01_(2х3)_A_Angle_D_01.fbx
+  artifactKey: Guid(a451650f02a0e9743b37f3872fec8e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_01_(2х3)_A_Angle_D_01.fbx using Guid(a451650f02a0e9743b37f3872fec8e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78d81ad1852ad12be883d8ea81635de') in 0.012339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_05_(2х3)_A_Clear_Angle_04.fbx
+  artifactKey: Guid(1b04dce4ce4fde549a7e85dd262bc40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_05_(2х3)_A_Clear_Angle_04.fbx using Guid(1b04dce4ce4fde549a7e85dd262bc40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1846ce465f51291111afd4d7057b63c') in 0.015284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Foundation_07_(2x3)_01.fbx
+  artifactKey: Guid(4d25f68961643014ca2209688768386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Foundation_07_(2x3)_01.fbx using Guid(4d25f68961643014ca2209688768386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ef8f7aaf823e6411407d83cd3d53c3') in 0.016878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Window_decoration_01_A.fbx
+  artifactKey: Guid(102fdb1779863dc4ea47f7c99b3f9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Window_decoration_01_A.fbx using Guid(102fdb1779863dc4ea47f7c99b3f9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cba436d3c12b4eb90aba48035348eb') in 0.014981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_03_(2х3)_A_Clear_Angle_02.fbx
+  artifactKey: Guid(80ffd856b95ff6f44bccd04ef5780c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_03_(2х3)_A_Clear_Angle_02.fbx using Guid(80ffd856b95ff6f44bccd04ef5780c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba4b90da5567e7645e391333edee4c7') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_06_(2х3)_A_Clear_Angle_02.fbx
+  artifactKey: Guid(515792a10e644364980bbc3a76f84048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_06_(2х3)_A_Clear_Angle_02.fbx using Guid(515792a10e644364980bbc3a76f84048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c502f89b6378fd7acc631697fd3c0162') in 0.015372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polygon-NewYork/Models/Aditional/Walls_06_(2х3)_A_Clear_Angle_01.fbx
+  artifactKey: Guid(9335c891ecf8bdc42aba1d50824494c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Models/Aditional/Walls_06_(2х3)_A_Clear_Angle_01.fbx using Guid(9335c891ecf8bdc42aba1d50824494c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cf80d3f34edc2fc2baf36bc08f3d89') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.740708 seconds.
+  path: Assets/Polygon-NewYork/Textures
+  artifactKey: Guid(952b78277a6126c4daf4f110c4b0d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Textures using Guid(952b78277a6126c4daf4f110c4b0d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48e1a3c99cd9dcf2c34e3063938a009') in 0.009719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051588 seconds.
+  path: Assets/Polygon-NewYork/Textures/clouds_01.png
+  artifactKey: Guid(d7dd6288e4de8a44c89c301a851f2c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Textures/clouds_01.png using Guid(d7dd6288e4de8a44c89c301a851f2c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3ecdb21fbf3a843451d7b9ae01aafb') in 0.053936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-NewYork/Textures/MainTexture_White_Red.png
+  artifactKey: Guid(d24e8de30a4d68a4881f96eee4e06645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Textures/MainTexture_White_Red.png using Guid(d24e8de30a4d68a4881f96eee4e06645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651ab74a92d27a95979ed21f046c73f5') in 0.024990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygon-NewYork/Textures/MainTexture_DarkGray_White.png
+  artifactKey: Guid(fe342a6d432204d4594742240729b9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Textures/MainTexture_DarkGray_White.png using Guid(fe342a6d432204d4594742240729b9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c350f44d3f9bf18040941ed70b21c0a') in 0.012971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-NewYork/Textures/MainTexture_Green_White.png
+  artifactKey: Guid(5f7022f4c632d8a4fa588455bbe799d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Textures/MainTexture_Green_White.png using Guid(5f7022f4c632d8a4fa588455bbe799d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9002152dfcca2e79dd96dde905b7e424') in 0.018022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.784485 seconds.
+  path: Assets/Polygon-NewYork/Scene
+  artifactKey: Guid(abde579d931f9074abc2a1bd5cee38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene using Guid(abde579d931f9074abc2a1bd5cee38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302e8d7598de39a5056bcf9cfb2031c0') in 0.010482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.279118 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_00.unity
+  artifactKey: Guid(8e1a056d5f50f2a41a36f018d3295698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_00.unity using Guid(8e1a056d5f50f2a41a36f018d3295698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89838076dc9f61f77ec90d881e0d86e2') in 0.009554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.209692 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_01.unity
+  artifactKey: Guid(5b98be56a051b4a45a52340e17e718a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_01.unity using Guid(5b98be56a051b4a45a52340e17e718a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5592069412736e4d47efc1e488ebbd02') in 0.010271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.273138 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_02.unity
+  artifactKey: Guid(d11edcaf258ac8f41b952d4cc5ba983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_02.unity using Guid(d11edcaf258ac8f41b952d4cc5ba983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3197fe794f150ccde24ca3f4f7a6a334') in 0.011182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.517982 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_03.unity
+  artifactKey: Guid(eea205e2eed67304fb66a5e0c91dfa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_03.unity using Guid(eea205e2eed67304fb66a5e0c91dfa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562d92e2172ec43710ef521ce0e4fc4b') in 0.010586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.893559 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_04.unity
+  artifactKey: Guid(f6d0e8e1c14527a44b86d422592ea98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_04.unity using Guid(f6d0e8e1c14527a44b86d422592ea98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98ad1a9d830050ee14f766312b643e8') in 0.009775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.267478 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demo_Level_05.unity
+  artifactKey: Guid(99cdc481275df0143a5aad8b8bdcbd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demo_Level_05.unity using Guid(99cdc481275df0143a5aad8b8bdcbd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fb89d9cc9083acd3beae95c6a5ef9d') in 0.009713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796759 seconds.
+  path: Assets/Polygon-NewYork/Scene/Demonstration.unity
+  artifactKey: Guid(bd62a85e4d0e0c14d88516a4279e3840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Scene/Demonstration.unity using Guid(bd62a85e4d0e0c14d88516a4279e3840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e406ef8dfda785530a229d228630fd17') in 0.009326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.764906 seconds.
+  path: Assets/Polygon-NewYork/Demo_Day_Profiles/Day.asset
+  artifactKey: Guid(e591fe07730f720418281b9b0a434878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Demo_Day_Profiles/Day.asset using Guid(e591fe07730f720418281b9b0a434878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd103fff01b56609a2486a41d86c60890') in 0.011903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-NewYork/Demo_Day_Profiles/Sky_HDR.mat
+  artifactKey: Guid(120e689ec4d98ca4fb4234d0a0a5f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Demo_Day_Profiles/Sky_HDR.mat using Guid(120e689ec4d98ca4fb4234d0a0a5f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0019e6a015f25185d8611696b6aba6a') in 0.014935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 603.269582 seconds.
+  path: Assets/Polygon-City Megapolis
+  artifactKey: Guid(97f666cff1ae1424aaf18018bd0a9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis using Guid(97f666cff1ae1424aaf18018bd0a9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b41c2d1e7447f967039ec180446738d') in 0.009428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.449911 seconds.
+  path: Assets/Polygon-City Megapolis/Scene
+  artifactKey: Guid(8a3490e4be66349499b9e07377b023f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Scene using Guid(8a3490e4be66349499b9e07377b023f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0430a6dce09ca3b28a77707bb8513739') in 0.009798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.160781 seconds.
+  path: Assets/Polygon-City Megapolis/Models
+  artifactKey: Guid(1ec55518c23a0e4428c02866eee513a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models using Guid(1ec55518c23a0e4428c02866eee513a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663ce18b8bb416d910baa26ee6cbaa4d') in 0.009912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.466010 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings
+  artifactKey: Guid(a5427a6b767c72744be10ad0c17cbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings using Guid(a5427a6b767c72744be10ad0c17cbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acffcf66fcc9432a5291b539f4cb7e5f') in 0.010862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044214 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_cottage_01.fbx
+  artifactKey: Guid(207b1b6ce0ec565499dd40bf7ac82027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_cottage_01.fbx using Guid(207b1b6ce0ec565499dd40bf7ac82027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362bfd5b1bb382981c15d2a1338bde62') in 0.026699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_07.fbx
+  artifactKey: Guid(13a2aaa88f2b33a47adbf4b791857fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_07.fbx using Guid(13a2aaa88f2b33a47adbf4b791857fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17474a57adc8353d098d109cb8b437e') in 0.022589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_House_08.fbx
+  artifactKey: Guid(b05eccb4a7a5de94baf687d9c1fc748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_House_08.fbx using Guid(b05eccb4a7a5de94baf687d9c1fc748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6728fc51d60455e7606f8e52a637a9') in 0.031287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_013.fbx
+  artifactKey: Guid(8e9791f337e29db47a2add62170061d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_013.fbx using Guid(8e9791f337e29db47a2add62170061d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beddc8f6220b8699eb78ae9e5f5baa3a') in 0.027195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_ordinary_houses_02.fbx
+  artifactKey: Guid(c3351b850e73f384d8a9aded6a42623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_ordinary_houses_02.fbx using Guid(c3351b850e73f384d8a9aded6a42623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6666e1c4012a16c96d7f7b9899f940') in 0.030449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_016.fbx
+  artifactKey: Guid(495f17d2f67bd6e4b9a127a30cfb9ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_016.fbx using Guid(495f17d2f67bd6e4b9a127a30cfb9ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888cf3bf9d9da71073e62729b19dda0f') in 0.029223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_06.fbx
+  artifactKey: Guid(9e6f48c92b632f84ab780d82ca0c6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_06.fbx using Guid(9e6f48c92b632f84ab780d82ca0c6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f266afbd687a89955100fef0ec1ce857') in 0.019475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_House_06.fbx
+  artifactKey: Guid(eb7e7d1ec771d804b96bc6b537a4b7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_House_06.fbx using Guid(eb7e7d1ec771d804b96bc6b537a4b7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00df0c8f85cc7ddd56ba84c1b4ae674e') in 0.024312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_010.fbx
+  artifactKey: Guid(848fa09e7a416f54c8fe8769217c58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_010.fbx using Guid(848fa09e7a416f54c8fe8769217c58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe124ecf453fa182d669aae422c19892') in 0.033660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_cottage_03.fbx
+  artifactKey: Guid(773615d684eea0645acfb04df0efaebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_cottage_03.fbx using Guid(773615d684eea0645acfb04df0efaebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f43cafdb3ea7dd8ca800a0c9f04b81') in 0.023061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_04.fbx
+  artifactKey: Guid(22231bd7f7466684488c4c705325139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_04.fbx using Guid(22231bd7f7466684488c4c705325139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2b3ba28d90c4d7317326205ea6d8ec') in 0.017875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_02.fbx
+  artifactKey: Guid(9c8d85eae3386a3449c551163ffa96d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_02.fbx using Guid(9c8d85eae3386a3449c551163ffa96d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d120e9465c5d84c951be1129635321') in 0.015059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_09.fbx
+  artifactKey: Guid(bccc9178f58664547b2c103c492702e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_09.fbx using Guid(bccc9178f58664547b2c103c492702e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc69409d4c805373750b97d71edf6b88') in 0.015310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_018.fbx
+  artifactKey: Guid(1b76f767671c45944817bca6cc6c82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_018.fbx using Guid(1b76f767671c45944817bca6cc6c82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18484748f364c4ca872e3ed52f22f246') in 0.016224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_06.fbx
+  artifactKey: Guid(d8bcb142c644dc343835c754a22cd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_06.fbx using Guid(d8bcb142c644dc343835c754a22cd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc69f72b90b0bbab15fcbace8ae28dbe') in 0.016088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_04.fbx
+  artifactKey: Guid(e5b871f7f30adb44692c739253750991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_04.fbx using Guid(e5b871f7f30adb44692c739253750991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bb190ac91b43d50f2da4f2185b9fe8') in 0.015892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_012.fbx
+  artifactKey: Guid(c370207645bcdd44491a19f2d8bf1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_infrastructure_buildings_012.fbx using Guid(c370207645bcdd44491a19f2d8bf1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2f1f5b1c9d394941b5b59ed89bd61a') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_02.fbx
+  artifactKey: Guid(fee53b751b6acfe4a898597020f90581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_02.fbx using Guid(fee53b751b6acfe4a898597020f90581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe007953698e98b3880fc4cb37aba57b') in 0.029031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_05.fbx
+  artifactKey: Guid(b9024835e92fe5b40805cee2cb0fca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_skyscraper_05.fbx using Guid(b9024835e92fe5b40805cee2cb0fca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399dc2cb0d1ca273c0abf32a10ae5fc1') in 0.017762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_House_01.fbx
+  artifactKey: Guid(62fb7b7cac18eee42840badf2ce2e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_House_01.fbx using Guid(62fb7b7cac18eee42840badf2ce2e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688d50c4111013c4a37b1a037ddb7a1e') in 0.017925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Buildings/SM_House_07.fbx
+  artifactKey: Guid(d3a60fa11b0f165418e87819447c4481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Buildings/SM_House_07.fbx using Guid(d3a60fa11b0f165418e87819447c4481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c185f871cb9417844efb0200d19529') in 0.018561 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
