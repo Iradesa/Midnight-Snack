@@ -15,7 +15,7 @@ E:/Midnight-Snack/Midnight Snack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56677
+62388
 Successfully changed project path to: E:/Midnight-Snack/Midnight Snack
 E:/Midnight-Snack/Midnight Snack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Midnight-Snack/Midnight Snack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31084] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1230319461 [EditorId] 1230319461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20280] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 634248109 [EditorId] 634248109 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31084] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1230319461 [EditorId] 1230319461 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20280] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 634248109 [EditorId] 634248109 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 89.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,92 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002448 seconds.
+Registered in 0.002687 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.544 seconds
+- Completed reload, in  0.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (544ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (491ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (86ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002779 seconds.
+Registered in 0.003878 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
+- Completed reload, in  0.742 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.7 MB). Loaded Objects now: 3679.
-Memory consumption went from 148.2 MB to 146.5 MB.
-Total: 4.932500 ms (FindLiveObjects: 0.502300 ms CreateObjectMapping: 0.305100 ms MarkObjects: 3.361500 ms  DeleteObjects: 0.762800 ms)
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.7 MB). Loaded Objects now: 3689.
+Memory consumption went from 155.3 MB to 153.7 MB.
+Total: 4.827000 ms (FindLiveObjects: 0.512600 ms CreateObjectMapping: 0.155300 ms MarkObjects: 3.487900 ms  DeleteObjects: 0.670100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,779 +166,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1128541.346779 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_05.prefab
-  artifactKey: Guid(77738afb8abdfb3419d3706544b06407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_05.prefab using Guid(77738afb8abdfb3419d3706544b06407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab9808c8d79affb265189418a66a80c') in 0.178833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Assembled_Tent_B_01.prefab
-  artifactKey: Guid(2e35c824bc5c2b043ab6980744e3c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Assembled_Tent_B_01.prefab using Guid(2e35c824bc5c2b043ab6980744e3c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3062fb0d927d6e7272abb35a36cc7cab') in 0.022423 seconds 
+  Time since last request: 1138625.863001 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Cell.png
+  artifactKey: Guid(44fe1c31818d34041bbe83b0b93165e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Cell.png using Guid(44fe1c31818d34041bbe83b0b93165e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a5a3a0805da5758d26181a4e342887') in 0.102093 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Banana_02.prefab
-  artifactKey: Guid(e99e6aa8897fbad48b63dd5b8bf72c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Banana_02.prefab using Guid(e99e6aa8897fbad48b63dd5b8bf72c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83c6da51d84c3c3796219a08663b91') in 0.030623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Assembled_tent_C.prefab
-  artifactKey: Guid(40090cb9d0d8e654fb90cb04b7c0ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Assembled_tent_C.prefab using Guid(40090cb9d0d8e654fb90cb04b7c0ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5155af4c86252474de967e813f32d48c') in 0.035767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Cabbage_02.prefab
-  artifactKey: Guid(0ce769dada91f2a40b6882c4b335802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Cabbage_02.prefab using Guid(0ce769dada91f2a40b6882c4b335802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5365f0c2b8893ba65504ffb33746a8c4') in 0.035607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_03.prefab
-  artifactKey: Guid(321bdfbba3d677e4ab63fab8fa178df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_03.prefab using Guid(321bdfbba3d677e4ab63fab8fa178df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b759facb95e94428054964ecee70490') in 0.030085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004178 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_02.prefab
-  artifactKey: Guid(c16ee65001a9fe348a4a3030f196b342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_02.prefab using Guid(c16ee65001a9fe348a4a3030f196b342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950e734eed10cfbcba4d404b308b5ed') in 0.029916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Bandage.prefab
-  artifactKey: Guid(cc727501756aee741997efa9a175c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Bandage.prefab using Guid(cc727501756aee741997efa9a175c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b0f4bdb2fb75f39b4a636b88309ad4') in 0.040346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002538 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Claw_Hammer.prefab
-  artifactKey: Guid(894a2c6c20035ea468561c6ba9a3dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Claw_Hammer.prefab using Guid(894a2c6c20035ea468561c6ba9a3dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11c602f14c0dd20be5509864a79974f') in 0.035824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Barrel_Open_02.prefab
-  artifactKey: Guid(15f4ff6a0123ccc4b81295e579b2e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Barrel_Open_02.prefab using Guid(15f4ff6a0123ccc4b81295e579b2e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d910a1fa411b045011074ff63d0e2f5') in 0.022796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Brilliant_Green.prefab
-  artifactKey: Guid(9c65fd548c8a75c4eacbff83631e9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Brilliant_Green.prefab using Guid(9c65fd548c8a75c4eacbff83631e9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2789a0aa1fcdb8706f634831c0a09475') in 0.020301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Crisps_A_04.prefab
-  artifactKey: Guid(76f8f13d6179c6c4184dc1e09d95d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Crisps_A_04.prefab using Guid(76f8f13d6179c6c4184dc1e09d95d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7befeecbc516d773cdf682a7062f254') in 0.018365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Box_Of_Nails.prefab
-  artifactKey: Guid(2eac033ecb81ae24283969ae1cb05ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Box_Of_Nails.prefab using Guid(2eac033ecb81ae24283969ae1cb05ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcbb4c549972284351213a6a20c88a1') in 0.018467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_04.prefab
-  artifactKey: Guid(9abc4745008d89941a5fe8d9f2a168c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_04.prefab using Guid(9abc4745008d89941a5fe8d9f2a168c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e360ae9c246063e27fa3ddadcdb5a990') in 0.022982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Carrot_02.prefab
-  artifactKey: Guid(934464ac21324704d9aa7b2926cedacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Carrot_02.prefab using Guid(934464ac21324704d9aa7b2926cedacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b4d51d55be54d607834658555e445') in 0.018524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Crisps_B_03.prefab
-  artifactKey: Guid(937796a01396f514abd9230e21f35c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Crisps_B_03.prefab using Guid(937796a01396f514abd9230e21f35c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d713517e6d43e7c08582f8bc97dd8') in 0.017190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Can_opener.prefab
-  artifactKey: Guid(1e117f2b387bdf8419e6b13b16feefe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Can_opener.prefab using Guid(1e117f2b387bdf8419e6b13b16feefe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189049f0735e8e1c57acbd042d8633a6') in 0.021638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Canned_food_A_04.prefab
-  artifactKey: Guid(d7d66ad3a2637014e80590b4939ea114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Canned_food_A_04.prefab using Guid(d7d66ad3a2637014e80590b4939ea114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8147667ecfd2937cfce328c01601216d') in 0.015000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Crisps_B_04.prefab
-  artifactKey: Guid(4f8fd6db259fede4d94affbd4a110dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Crisps_B_04.prefab using Guid(4f8fd6db259fede4d94affbd4a110dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c6668bea52d4a7f2805dc2793aab82') in 0.013974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Dnergy_Drink_01.prefab
-  artifactKey: Guid(9923ea66acd7c474ebdebbee4399822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Dnergy_Drink_01.prefab using Guid(9923ea66acd7c474ebdebbee4399822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc21ce779df98303ee4edf90a1f9325') in 0.013975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Apple_02.prefab
-  artifactKey: Guid(0e0cca2ce4e7c5345a07a904cae0a694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Apple_02.prefab using Guid(0e0cca2ce4e7c5345a07a904cae0a694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e13de7604868ce1ecdecc66cc983ace') in 0.015081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_01.prefab
-  artifactKey: Guid(8317c5ffb59e92343ad50e0eaeafac2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Chemical_Light_01.prefab using Guid(8317c5ffb59e92343ad50e0eaeafac2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea532b5efeb6e11e56e8bac6867cbd1') in 0.021729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Canned_food_A_02.prefab
-  artifactKey: Guid(fd467fac1004a764a91ab2559e8c0265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Canned_food_A_02.prefab using Guid(fd467fac1004a764a91ab2559e8c0265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c19e6cf4706949aa907c3b1e545d423') in 0.016025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Barrel_Open_03.prefab
-  artifactKey: Guid(f7f8b9ae28ea0834ca2a32f7868de513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Barrel_Open_03.prefab using Guid(f7f8b9ae28ea0834ca2a32f7868de513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e3bb1881f0ca2642cf525abe4c869') in 0.014043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_02.prefab
-  artifactKey: Guid(654ee68c498527944a6f93c9f4d1f38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Canned_food_B_02.prefab using Guid(654ee68c498527944a6f93c9f4d1f38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7fc129e64b44119ef8cabc36b4d913') in 0.017801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Drink_04.prefab
-  artifactKey: Guid(5c3e523cc8b07874a82a3d203d1f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Drink_04.prefab using Guid(5c3e523cc8b07874a82a3d203d1f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad89132179ea20bd77b86d416330541e') in 0.018291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Barrel_Closed_01.prefab
-  artifactKey: Guid(72e9482c4fae1624a8c1b1d09cfa2f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Barrel_Closed_01.prefab using Guid(72e9482c4fae1624a8c1b1d09cfa2f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa8034f5d0b3e8dd861ea9dfdc17b7') in 0.017934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.302737 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Drinking_Bottle_A_03.prefab
-  artifactKey: Guid(5ffc9b9c83337bb4ca79d26f6266f0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Drinking_Bottle_A_03.prefab using Guid(5ffc9b9c83337bb4ca79d26f6266f0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a60e0802be2bbe945f923683be255e') in 0.014005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_01.prefab
-  artifactKey: Guid(f7b857b785046a441bf22cc88c4e1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_01.prefab using Guid(f7b857b785046a441bf22cc88c4e1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a16de7dec5f66ae4d4b39abd840414d') in 0.018137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_02.prefab
-  artifactKey: Guid(7a60bba87f8c41247b16c9c4089bce6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_02.prefab using Guid(7a60bba87f8c41247b16c9c4089bce6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e24ffd7a9c14c680d404baaa19ca32') in 0.015609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Egg_B_01.prefab
-  artifactKey: Guid(75209761607bb2745a51ba5545db7c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Egg_B_01.prefab using Guid(75209761607bb2745a51ba5545db7c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25108cc32507b33504c615fb575a593a') in 0.014563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_04.prefab
-  artifactKey: Guid(3cf2207d2e8500d40b4d4a5d64825799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Energy_Bar_B_04.prefab using Guid(3cf2207d2e8500d40b4d4a5d64825799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a153247d9fedb3ae5819c6231fb3be6') in 0.020892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.480458 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Fire_Tripod.prefab
-  artifactKey: Guid(f5fae431404cec443823f1ac233339eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Fire_Tripod.prefab using Guid(f5fae431404cec443823f1ac233339eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de2490c71d1196ddcca47b3446624d7') in 0.013682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Gas_Stove.prefab
-  artifactKey: Guid(459593fe84a3cd541bf27e999834b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Gas_Stove.prefab using Guid(459593fe84a3cd541bf27e999834b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dd9a1c88c9f6b2042b0f4231f8e488') in 0.019393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/flare.prefab
-  artifactKey: Guid(0bfcc3de0c2beb1449ab850cfff379a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/flare.prefab using Guid(0bfcc3de0c2beb1449ab850cfff379a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c4768f1b355aeacd29da9bf696fdab') in 0.016578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Hoe.prefab
-  artifactKey: Guid(533581654612d5c45a983dd683818c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Hoe.prefab using Guid(533581654612d5c45a983dd683818c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1acb5a062b0956aec6ca5b7b2f26a3') in 0.017988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Grindstone.prefab
-  artifactKey: Guid(0231efc3c1e54f5489beba9f00a762fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Grindstone.prefab using Guid(0231efc3c1e54f5489beba9f00a762fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a873fa97c330c895cb2aaae4af17bd46') in 0.016029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Ham_03.prefab
-  artifactKey: Guid(cadbc7d6ace653843987e49df576f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Ham_03.prefab using Guid(cadbc7d6ace653843987e49df576f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2661ce0afdb31c358bb20f416f6191f') in 0.016530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Homemade_Medical_Splint.prefab
-  artifactKey: Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Homemade_Medical_Splint.prefab using Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f3a498a0087edaa2b579edfb75ad1') in 0.018898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Gas_Lighter.prefab
-  artifactKey: Guid(692180fd423d44b45ba9a0168741aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Gas_Lighter.prefab using Guid(692180fd423d44b45ba9a0168741aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641affea9283447d6964bb76813e1e33') in 0.023652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Iodine.prefab
-  artifactKey: Guid(fe80f8d5339dca542ba3b3d8e6d219d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Iodine.prefab using Guid(fe80f8d5339dca542ba3b3d8e6d219d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2876c662ce18005d6915d921764064') in 0.026772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.644066 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Lantern.prefab
-  artifactKey: Guid(cf48c431a02037d4c8f3b677af1b672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Lantern.prefab using Guid(cf48c431a02037d4c8f3b677af1b672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12026141955b08fb2f3843dba4b72b39') in 0.020724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Meat_03.prefab
-  artifactKey: Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Meat_03.prefab using Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631978bedd31b601e6468a0767a824df') in 0.022283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Medical_Syringe_B_01.prefab
-  artifactKey: Guid(e4c96968d6b049f4589caf3ec8ef5f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Medical_Syringe_B_01.prefab using Guid(e4c96968d6b049f4589caf3ec8ef5f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d8cca2fe1fc3ec4d8d9e6efe73c8c6') in 0.023601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Medical_Syringe_B_02.prefab
-  artifactKey: Guid(3808a6242a81a2e4a96a4bf6a9815ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Medical_Syringe_B_02.prefab using Guid(3808a6242a81a2e4a96a4bf6a9815ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a62ae2b7e67f76427034486819898') in 0.037223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Medical_Bag.prefab
-  artifactKey: Guid(7c89b411aa638154184159f7da3d9f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Medical_Bag.prefab using Guid(7c89b411aa638154184159f7da3d9f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce32c9622496872606e54a52e77bf959') in 0.042546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.729264 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Miner's_Pick.prefab
-  artifactKey: Guid(fc677dbc32d44c94c9ab49dbe27e1d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Miner's_Pick.prefab using Guid(fc677dbc32d44c94c9ab49dbe27e1d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c876f709a9b873dc13fa650ec7977e') in 0.013611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Paddle.prefab
-  artifactKey: Guid(08fcf18c269299c48b528598c2e48df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Paddle.prefab using Guid(08fcf18c269299c48b528598c2e48df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517c1ed626fc48dd047208009ead4cbf') in 0.015204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Mug.prefab
-  artifactKey: Guid(2ad0df383ecafd0489d4314944c4f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Mug.prefab using Guid(2ad0df383ecafd0489d4314944c4f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5429337e7e5be6552b58f04430cc3c') in 0.014956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pate_A_03.prefab
-  artifactKey: Guid(7d1e255004c830949a9a7167c200730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pate_A_03.prefab using Guid(7d1e255004c830949a9a7167c200730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a45d928480764ae979b6740ac0e8e2e') in 0.014460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Onion_02.prefab
-  artifactKey: Guid(fae7e91ac4883504f858350ca2405d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Onion_02.prefab using Guid(fae7e91ac4883504f858350ca2405d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47c8ec564fb1b85cfb712a1a9795560') in 0.015997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.431587 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pate_B_02.prefab
-  artifactKey: Guid(e5dd4935cd84fa044a20921623a234dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pate_B_02.prefab using Guid(e5dd4935cd84fa044a20921623a234dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c60d228ee00f883816eed648466b02f') in 0.012673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pate_B_04.prefab
-  artifactKey: Guid(9a64251a32733264598a64957c693fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pate_B_04.prefab using Guid(9a64251a32733264598a64957c693fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4d23ff426e04550837a41f56baa5c4') in 0.017340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Radio.prefab
-  artifactKey: Guid(6ec497d50bb963143a026ae9d256030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Radio.prefab using Guid(6ec497d50bb963143a026ae9d256030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b1f4d891098b49917383aa1c06de0e') in 0.012806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pills_H.prefab
-  artifactKey: Guid(40e7cb508b9df2d4db159a40cfd220dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pills_H.prefab using Guid(40e7cb508b9df2d4db159a40cfd220dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1e36f3db487e3a20bcfc7382b3ffb5') in 0.013589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pills_G.prefab
-  artifactKey: Guid(a78d8a1e82c83b4429e3072fa9732093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pills_G.prefab using Guid(a78d8a1e82c83b4429e3072fa9732093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e96e96c906cc61e50ad8529b21287b') in 0.014243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Piece_Of_Leather.prefab
-  artifactKey: Guid(8379b362055552144bfbeb96aae49b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Piece_Of_Leather.prefab using Guid(8379b362055552144bfbeb96aae49b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87384d3de90f901865c5d73d84e7b8f9') in 0.014270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Petrolatum.prefab
-  artifactKey: Guid(9bc5a1be15882004fa45d4d37dbf2fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Petrolatum.prefab using Guid(9bc5a1be15882004fa45d4d37dbf2fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfd0721a3ba934f16d4ec8ba92b98c6') in 0.023983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pepper_A_01.prefab
-  artifactKey: Guid(2f3634f1c9f69d944bff197bf6867faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pepper_A_01.prefab using Guid(2f3634f1c9f69d944bff197bf6867faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536b25935182104a4aa75fe4533c969') in 0.015158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Pills_F.prefab
-  artifactKey: Guid(a5bb158160f9d754bb5b343620ce2e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Pills_F.prefab using Guid(a5bb158160f9d754bb5b343620ce2e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6c062d21e21c3f7ae4592c42cde674') in 0.015341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Portable_Solar_Panel.prefab
-  artifactKey: Guid(e09c5ba1c3793714492705aead71da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Portable_Solar_Panel.prefab using Guid(e09c5ba1c3793714492705aead71da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397a4a3a726b8e48f3713a2723d6b8c4') in 0.014857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.562052 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Rubbing_Alcohol_A.prefab
-  artifactKey: Guid(7db3a2d93a808674ab121e72bc1ac701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Rubbing_Alcohol_A.prefab using Guid(7db3a2d93a808674ab121e72bc1ac701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c14dba9f5d76ecbbfb5cdf6c5bee45') in 0.013301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Scotch.prefab
-  artifactKey: Guid(b1dd6a12dd602114a87fd918ebe02c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Scotch.prefab using Guid(b1dd6a12dd602114a87fd918ebe02c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c87935c98078eab8ab5ec6652f65d') in 0.020560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Screwdriver.prefab
-  artifactKey: Guid(0c9295939140b814bb5bb021161d5e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Screwdriver.prefab using Guid(0c9295939140b814bb5bb021161d5e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ef4616a6a0aac17964c9f6235bc257') in 0.013315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Sledgehammer.prefab
-  artifactKey: Guid(0ee7d8175f296db4c9f82fd9bb6926cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Sledgehammer.prefab using Guid(0ee7d8175f296db4c9f82fd9bb6926cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b080f7bd8bd61ec7e53319363d9520') in 0.018861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Rubik's_Cube.prefab
-  artifactKey: Guid(d9f2fa8c19eefb94585a9add817d769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Rubik's_Cube.prefab using Guid(d9f2fa8c19eefb94585a9add817d769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03847e92093edf1ddb5ca8234e487538') in 0.016322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.035676 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_A_03.prefab
-  artifactKey: Guid(3edee4ef592a66945a0ddb2f2a8142f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_A_03.prefab using Guid(3edee4ef592a66945a0ddb2f2a8142f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa86273cd4cfc7828325caaf7e20d6a') in 0.014906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_B_01.prefab
-  artifactKey: Guid(3bed9a7af99d1dd489716d9168f835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_B_01.prefab using Guid(3bed9a7af99d1dd489716d9168f835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1045c99a090b37e0544b7167dd313327') in 0.020077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_B_03.prefab
-  artifactKey: Guid(f5081a4ebeabe5e488e95fa472b60952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_B_03.prefab using Guid(f5081a4ebeabe5e488e95fa472b60952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc5718ea5506befda139fbde88f330b') in 0.014220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_C_03.prefab
-  artifactKey: Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_C_03.prefab using Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4940d8a58502d681be7bfa9374320c24') in 0.020844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_D_01.prefab
-  artifactKey: Guid(ced4ed022c9aadc4991b41b30f6cdeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Small_Canned_Food_D_01.prefab using Guid(ced4ed022c9aadc4991b41b30f6cdeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afadb8c3727ae044c6e06a07ebbc0b80') in 0.017856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.322639 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Soda_02.prefab
-  artifactKey: Guid(684373ddd95733f43bd8ad3cbfbadc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Soda_02.prefab using Guid(684373ddd95733f43bd8ad3cbfbadc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a12cda2173a0b8c13f3b083721c013e') in 0.013432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Tent_D_01.prefab
-  artifactKey: Guid(95b44b9d1f9506e498d8a7e0ee3d8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Tent_D_01.prefab using Guid(95b44b9d1f9506e498d8a7e0ee3d8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6261ef67a14927427f615d71cd50fb') in 0.024781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Soda_04.prefab
-  artifactKey: Guid(82faa72bfb187414890ae6df141ee6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Soda_04.prefab using Guid(82faa72bfb187414890ae6df141ee6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc96225aea9285b02ce43dc2be0311dd') in 0.014498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Tent_B_02.prefab
-  artifactKey: Guid(8338c6b9d33f76f4aab7cecf681c9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Tent_B_02.prefab using Guid(8338c6b9d33f76f4aab7cecf681c9763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba649e6209b55f38ccfdf1e2503320aa') in 0.014604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/The_Cloth.prefab
-  artifactKey: Guid(a421dea2f96e48748b8df4cfa29d0989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/The_Cloth.prefab using Guid(a421dea2f96e48748b8df4cfa29d0989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3f090a7167cf439bf29271732f25f8') in 0.022742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/String_Guitar.prefab
-  artifactKey: Guid(68520f7d7d0f4e640bc14d29a3f4709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/String_Guitar.prefab using Guid(68520f7d7d0f4e640bc14d29a3f4709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226b7ecd8f90b176d555e063fc0830e') in 0.013492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.894572 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Tomato_01.prefab
-  artifactKey: Guid(b3e55d03e3c57394587b2d6ce9f23595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Tomato_01.prefab using Guid(b3e55d03e3c57394587b2d6ce9f23595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14681b844ff997ae93b79233fda913e7') in 0.013476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Wire_Cutters.prefab
-  artifactKey: Guid(d196b4e77647615458b78ccee0b6baf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Wire_Cutters.prefab using Guid(d196b4e77647615458b78ccee0b6baf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd9cfdbc8042873bd1bc2f25adaaa6') in 0.016375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Vitamins_A_02.prefab
-  artifactKey: Guid(582b9b796c8043440bc8446ee5f42537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Vitamins_A_02.prefab using Guid(582b9b796c8043440bc8446ee5f42537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b375b8db5edc69ecdb80418414e7e2a6') in 0.015719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Vitamins_A_01.prefab
-  artifactKey: Guid(dc82aac361ac5424dae94f88c0e12116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Vitamins_A_01.prefab using Guid(dc82aac361ac5424dae94f88c0e12116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abf684883c7f992c6521a785d6ea9b5') in 0.012965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Tomato_03.prefab
-  artifactKey: Guid(2dadbbdb73e61de4b992b1306ef1db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Tomato_03.prefab using Guid(2dadbbdb73e61de4b992b1306ef1db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d68d3f3e83cd3430d77ab6eef8f91') in 0.013107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.205977 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Bush_02.prefab
-  artifactKey: Guid(3d3669f8352e0fa4a8a12b42f8853ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Bush_02.prefab using Guid(3d3669f8352e0fa4a8a12b42f8853ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d823908a4290d8fe91245cebb84be93') in 0.179418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Grass_02.prefab
-  artifactKey: Guid(b6aa97c70fd88e84d9602208f9c6c87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Grass_02.prefab using Guid(b6aa97c70fd88e84d9602208f9c6c87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded8580ae16a4fa3513abc85f371b481') in 0.015044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Tree_02.prefab
-  artifactKey: Guid(110eb891775d2a84599e4fa2b7537e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Tree_02.prefab using Guid(110eb891775d2a84599e4fa2b7537e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a056c7a58d603ad63d8af58be0f82e2b') in 0.030800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Grass.prefab
-  artifactKey: Guid(0d4d76c945ae9834ebd7445fae2925e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Grass.prefab using Guid(0d4d76c945ae9834ebd7445fae2925e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7148b096529ff5c4b3cd208281fe1dc') in 0.015485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_05.prefab
-  artifactKey: Guid(7fa1c8d61d8e6f840862669fcec2d45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_05.prefab using Guid(7fa1c8d61d8e6f840862669fcec2d45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a9d27030576a4cd832a8a91af89ba6') in 0.017106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Tree_03.prefab
-  artifactKey: Guid(8b6cbdbdb7bf4ea4b99e057cf3036b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Tree_03.prefab using Guid(8b6cbdbdb7bf4ea4b99e057cf3036b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c23d20e5d9aaf602182b9cdd073022c') in 0.033291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_06.prefab
-  artifactKey: Guid(1973e15626eb29c41970e70d1e867a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_06.prefab using Guid(1973e15626eb29c41970e70d1e867a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cd4137b89b9286987b914cc17aa02a') in 0.026983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_02.prefab
-  artifactKey: Guid(d78ea24463569aa4f913ef5ec8576e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Environment/SM_Stone_02.prefab using Guid(d78ea24463569aa4f913ef5ec8576e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47d9d4d93e584c59600107fb8178259') in 0.017343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.987947 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Binoculars.prefab
-  artifactKey: Guid(4dc8545c80427e94095363376ce74d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Binoculars.prefab using Guid(4dc8545c80427e94095363376ce74d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766d4bc9cd9e6a98d081d50d23822ebe') in 0.015317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Inhaler.prefab
-  artifactKey: Guid(ce7ce81fe0602004fb1fda32800613b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Inhaler.prefab using Guid(ce7ce81fe0602004fb1fda32800613b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a147b961a923e9a82c19037f90bbc00c') in 0.019875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Wood_Box.prefab
-  artifactKey: Guid(930f192c153aafe499582ca29ede6769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Wood_Box.prefab using Guid(930f192c153aafe499582ca29ede6769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111771e3d4dcd312a5bd5833ab611eeb') in 0.031270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Metal_Mug.prefab
-  artifactKey: Guid(03924fd4dd7b2d547b2a9c472a7d6c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Metal_Mug.prefab using Guid(03924fd4dd7b2d547b2a9c472a7d6c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e307a424127f1ab545f9dda046b3113') in 0.013770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Spear.prefab
-  artifactKey: Guid(99fd1c186b77be54196218bcf4fcc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Spear.prefab using Guid(99fd1c186b77be54196218bcf4fcc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d61b0f3830e84552728fc4058e13c') in 0.015210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Pushpin.prefab
-  artifactKey: Guid(33201dbe0be298e49a5b6a8769a67f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Pushpin.prefab using Guid(33201dbe0be298e49a5b6a8769a67f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdbc4d4d7c3a5e9fd2e2dfa63d57e03') in 0.017928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Water_Collector.prefab
-  artifactKey: Guid(1f11d0bc2383e9f449f1573d656e4169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Water_Collector.prefab using Guid(1f11d0bc2383e9f449f1573d656e4169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3290e2b28c475470e9142cdff5ee63') in 0.014288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Kayak_Paddle.prefab
-  artifactKey: Guid(a3d49037e82d6c54e80ed2029dc2eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Kayak_Paddle.prefab using Guid(a3d49037e82d6c54e80ed2029dc2eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c80d6063206ba306d36ca9a4e86d53') in 0.013679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Sleeping_Bag.prefab
-  artifactKey: Guid(48a5693f18756d54c9b312cebd7232cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Sleeping_Bag.prefab using Guid(48a5693f18756d54c9b312cebd7232cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31e1af7045e1175d3ac5accd9e0dd57') in 0.014632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Primitive_Knife.prefab
-  artifactKey: Guid(a0460636b455fae4fb876c0cec097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Primitive_Knife.prefab using Guid(a0460636b455fae4fb876c0cec097542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1854eaba4c8c8a7db58a22708685b947') in 0.013903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Candle_In_A_Can.prefab
-  artifactKey: Guid(d293036e6898ad445891fd5373111cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Candle_In_A_Can.prefab using Guid(d293036e6898ad445891fd5373111cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3409db80635e410eaabe20898eeed29') in 0.014374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Primitive_Spear.prefab
-  artifactKey: Guid(63c3f1622f49ab24baea8ceb8a93def5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Primitive_Spear.prefab using Guid(63c3f1622f49ab24baea8ceb8a93def5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1daa633e58bd015571f2f82f9646f2') in 0.013725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/New/SM_Plastic_Fork.prefab
-  artifactKey: Guid(fcd6caa9360ad6147af92e6181a8d694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/New/SM_Plastic_Fork.prefab using Guid(fcd6caa9360ad6147af92e6181a8d694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06324e4c5b6b95f631de230dd5a5c3e') in 0.013652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.899114 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Vehicle/SM_Motorbike.prefab
-  artifactKey: Guid(eb9eed3bb37624f4d99d1e479326c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Vehicle/SM_Motorbike.prefab using Guid(eb9eed3bb37624f4d99d1e479326c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b1056ab1eb6864fbcf7be61d6e13d3') in 0.016764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.585190 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,45_01.prefab
-  artifactKey: Guid(66f0fa1d45284f44098df1601b651136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,45_01.prefab using Guid(66f0fa1d45284f44098df1601b651136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0809bbd551c9932d089d5e67c25d01') in 0.016151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,56_02.prefab
-  artifactKey: Guid(be6c9d361e8674243bb5022a795d9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,56_02.prefab using Guid(be6c9d361e8674243bb5022a795d9926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9707e43cdaf9164261ff12c04116a141') in 0.015946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Large_Magazine_5,45.prefab
-  artifactKey: Guid(12eb0fa0d0d75504b98d9af3399a074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Large_Magazine_5,45.prefab using Guid(12eb0fa0d0d75504b98d9af3399a074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705043bcf84545e563c004144b752d73') in 0.020937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,45_Clean.prefab
-  artifactKey: Guid(078ed511b723a9d42a3e2e791fab0a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,45_Clean.prefab using Guid(078ed511b723a9d42a3e2e791fab0a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c938eb857e0267ddf4ffc211d8addb95') in 0.019543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Horizontal_Handle_02.prefab
-  artifactKey: Guid(6146708e09a12a1498a26da718a91aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Horizontal_Handle_02.prefab using Guid(6146708e09a12a1498a26da718a91aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c3f24fab9e9db89f7ca161c3f983ff') in 0.020902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Vertical_Handle_01.prefab
-  artifactKey: Guid(7d60509e92669d046bcc8de8d7d69133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Vertical_Handle_01.prefab using Guid(7d60509e92669d046bcc8de8d7d69133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67479d7fd42a92305de30ef8f66988f0') in 0.019908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Magazine_5,45_01.prefab
-  artifactKey: Guid(0f6279dfdc9bf9a4f9b5fc3e04918727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Magazine_5,45_01.prefab using Guid(0f6279dfdc9bf9a4f9b5fc3e04918727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd9cc849c01b4b95ba751dcdeef7e7e') in 0.019666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Bayonet_Knife_5.45.prefab
-  artifactKey: Guid(97185b70a0d997e42a41df7e41f27b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Bayonet_Knife_5.45.prefab using Guid(97185b70a0d997e42a41df7e41f27b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12270f4bf6db32b60c8cabcb98d0ea2a') in 0.013281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_Grip_02_5.56.prefab
-  artifactKey: Guid(5a65679c9ff62fd4c9654d8e1aedd598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_Grip_02_5.56.prefab using Guid(5a65679c9ff62fd4c9654d8e1aedd598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f6314c359b0dcf6b72c59591d1058d') in 0.013936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Flick_Knife.prefab
-  artifactKey: Guid(37dddd09fb3fe504fbd2134c890d3bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Flick_Knife.prefab using Guid(37dddd09fb3fe504fbd2134c890d3bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e115b2561c58d928aa38146edc27f7') in 0.014126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Gun_9mm.prefab
-  artifactKey: Guid(43735800fb1d6794690369e5868d5ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Gun_9mm.prefab using Guid(43735800fb1d6794690369e5868d5ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85144ed1580429bcbc8fc6fe516261f') in 0.014869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Sniper_Rifle_02.prefab
-  artifactKey: Guid(6fb447ffe6e3cfb4a9b785458cea373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Sniper_Rifle_02.prefab using Guid(6fb447ffe6e3cfb4a9b785458cea373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630c184310b6009d78707ad02d1fdf79') in 0.013897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Optical_Sight_01.prefab
-  artifactKey: Guid(d6a71afac2732a54c996f0a925e97b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Optical_Sight_01.prefab using Guid(d6a71afac2732a54c996f0a925e97b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b43a3907c92d009695a6251c1c51da') in 0.014770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Collimator_Sight_B_03.prefab
-  artifactKey: Guid(9f833131824fb094690222f6b3c61d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Collimator_Sight_B_03.prefab using Guid(9f833131824fb094690222f6b3c61d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bedf989e18cd1b953c85d97d6b9c7d1') in 0.015313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_Grip_02_5.45.prefab
-  artifactKey: Guid(44d17d965c680664c95fee1379c48d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_Grip_02_5.45.prefab using Guid(44d17d965c680664c95fee1379c48d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973fecff4a7e595d5a8fc2877da20a13') in 0.014609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Combat_Knife.prefab
-  artifactKey: Guid(45d9082fb1e314b4a8bddc1d7db98bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Combat_Knife.prefab using Guid(45d9082fb1e314b4a8bddc1d7db98bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ba657bd00580c36027af874e8817f') in 0.014367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Frag_Grenade.prefab
-  artifactKey: Guid(298bb664c163ae448b80a8a6b6618a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Frag_Grenade.prefab using Guid(298bb664c163ae448b80a8a6b6618a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63bcf41df89590b466a9d8dc778acc5') in 0.013660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Crossbow_Bolt.prefab
-  artifactKey: Guid(9fb96d530d4b58342bdefb4a32d57717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Crossbow_Bolt.prefab using Guid(9fb96d530d4b58342bdefb4a32d57717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764268cec44ce8c757d494082fb7243a') in 0.015000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Fire_Axe.prefab
-  artifactKey: Guid(224190c32575f1a4992c1603b2274f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Fire_Axe.prefab using Guid(224190c32575f1a4992c1603b2274f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d379199d87f0c0243b977223aac6eb') in 0.014052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Magazine_5,45_02.prefab
-  artifactKey: Guid(301bfaac367c43d479eb16e785d362b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Magazine_5,45_02.prefab using Guid(301bfaac367c43d479eb16e785d362b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331bf80ba27af70ed4c2d927c72a6986') in 0.013695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Wooden_Forend.prefab
-  artifactKey: Guid(eebfdff2a8cb81c478b85615526dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Wooden_Forend.prefab using Guid(eebfdff2a8cb81c478b85615526dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee822df51738aa6d73519eae967845fb') in 0.015133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Shotgun_02.prefab
-  artifactKey: Guid(ce4f01243282b814f8d6d2d4fa35cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Shotgun_02.prefab using Guid(ce4f01243282b814f8d6d2d4fa35cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9813d8adc42d62a4114a41b343c339') in 0.015263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/O_Tanto.prefab
-  artifactKey: Guid(e3511eb88d345794eaba58221736ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/O_Tanto.prefab using Guid(e3511eb88d345794eaba58221736ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bad2f0bfeb493ce6fa6a2431b9b533d') in 0.015845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,56_01.prefab
-  artifactKey: Guid(52bbfe22e2f2fa94e94d1923a553c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Assault_Rifle_5,56_01.prefab using Guid(52bbfe22e2f2fa94e94d1923a553c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e855d21548d5be9b5bffd2a8ccb4da55') in 0.013815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Prefabs/Weapons/Bayonet_Knife_5.56.prefab
-  artifactKey: Guid(f9f1b71bb2fb0d74faee7558acee3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Prefabs/Weapons/Bayonet_Knife_5.56.prefab using Guid(f9f1b71bb2fb0d74faee7558acee3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0cfadbcf8ba5f79840f0e908d61cea') in 0.014367 seconds 
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png
+  artifactKey: Guid(953eab576c42ff84bbf116175e0b6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png using Guid(953eab576c42ff84bbf116175e0b6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9bdc22d5b3ef9a6aceb17daa078e7a') in 0.015781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452696 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_albedo.png
+  artifactKey: Guid(975091fd01255324da00cdc05598ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_albedo.png using Guid(975091fd01255324da00cdc05598ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce12440ba277f448f5b20710a7f7692') in 0.012602 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
