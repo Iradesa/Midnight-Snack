@@ -5,31 +5,41 @@ using UnityEngine;
 public class animationStateController : MonoBehaviour
 {
     Animator animator;
-    int isWalkingHash; // for optimization, faster to compare to integers than two strings
-    // Start is called before the first frame update
+    float velocity = 0.0f;
+    public float acceleration = 0.1f;
+    public float deceleration = 0.5f;
+    int VelocityHash;
+
     void Start()
     {
+        // reference for animator
         animator = GetComponent<Animator>();
-        isWalkingHash = Animator.StringToHash("isWalkingHash");
+
+        //increase performance
+        VelocityHash = Animator.StringToHash("Velocity");
     }
 
     // Update is called once per frame
     void Update()
     {
-        bool isWalking = animator.GetBool(isWalkingHash);
+        //get key input from player
         bool forwardPressed = Input.GetKey("w");
-        //if player presses W key
-        if (!isWalking && forwardPressed)
+
+        if (forwardPressed && velocity < 0.2f)
         {
-            // sets the isWalking boolean to be true
-            animator.SetBool(isWalkingHash, true);
+            velocity += Time.deltaTime * acceleration;
         }
 
-        //if a player is not pressing the w key
-        if (isWalking && !forwardPressed)
+        if (!forwardPressed && velocity > 0.0f)
         {
-            //set the isWalking boolean to be false
-            animator.SetBool(isWalkingHash, false);
+            velocity -= Time.deltaTime * deceleration;
         }
+
+        if (!forwardPressed && velocity < 0.0f)
+        {
+            velocity = 0.0f;
+        }
+
+        animator.SetFloat(VelocityHash, velocity);
     }
 }
