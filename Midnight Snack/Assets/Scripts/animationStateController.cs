@@ -10,7 +10,7 @@ public class animationStateController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        isWalkingHash = Animator.StringToHash(isWalkingHash);
+        isWalkingHash = Animator.StringToHash("isWalkingHash");
     }
 
     // Update is called once per frame
