@@ -15,7 +15,7 @@ E:/Midnight-Snack/Midnight Snack
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61159
+52301
 Successfully changed project path to: E:/Midnight-Snack/Midnight Snack
 E:/Midnight-Snack/Midnight Snack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Midnight-Snack/Midnight Snack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35816] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 4173236639 [EditorId] 4173236639 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45220] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1056117517 [EditorId] 1056117517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35816] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 4173236639 [EditorId] 4173236639 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45220] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1056117517 [EditorId] 1056117517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 105.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003167 seconds.
+Registered in 0.002024 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
+- Completed reload, in  0.502 seconds
 Domain Reload Profiling:
-	ReloadAssembly (591ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (502ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (441ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004483 seconds.
+Registered in 0.003079 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (691ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (286ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.7 MB). Loaded Objects now: 3679.
-Memory consumption went from 148.8 MB to 147.1 MB.
-Total: 2.952700 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.162500 ms  DeleteObjects: 0.428700 ms)
+Memory consumption went from 148.9 MB to 147.2 MB.
+Total: 3.072300 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.205600 ms  DeleteObjects: 0.464500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,112 +166,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1471292.410296 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Battery.fbx
-  artifactKey: Guid(d9ea506d37e738545a42f05d67d3f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Battery.fbx using Guid(d9ea506d37e738545a42f05d67d3f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab1c387b67360d48938907eb0fe226a') in 0.168914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Cabbage_01.fbx
-  artifactKey: Guid(63fab5c86b876464991ed340a6341f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Cabbage_01.fbx using Guid(63fab5c86b876464991ed340a6341f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2501675412dfb14199f87454ec6f915') in 0.026596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Blood_Bag.fbx
-  artifactKey: Guid(3b6c8bfa4ca23f248b6dd6ec97c52fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Blood_Bag.fbx using Guid(3b6c8bfa4ca23f248b6dd6ec97c52fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5a1751253b08d0f2d418dad61e15b6') in 0.035433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Arrow.fbx
-  artifactKey: Guid(fe269a18cfa601f4d9d7e64cb0cf82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Arrow.fbx using Guid(fe269a18cfa601f4d9d7e64cb0cf82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f3cefec2510b3e1e8d01ccc97d3396') in 0.028208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Barrel_Open_02.fbx
-  artifactKey: Guid(2ed852579dbf3cf43af6762061d804d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Barrel_Open_02.fbx using Guid(2ed852579dbf3cf43af6762061d804d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f5f56dadc68e12facb927e13c1b653') in 0.028131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Barrel_Open_01.fbx
-  artifactKey: Guid(b9ae093b817259e44adc7f991fe54c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Barrel_Open_01.fbx using Guid(b9ae093b817259e44adc7f991fe54c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053e58e433d00ebbdb1aae8b052527db') in 0.033165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Box_Of_Tea.fbx
-  artifactKey: Guid(9ed214f4beb7ab34bb0cd4b56b5a54cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Box_Of_Tea.fbx using Guid(9ed214f4beb7ab34bb0cd4b56b5a54cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8351c1b34e44e51e1b7acc18a0e8a86') in 0.024276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Bowler_Hat.fbx
-  artifactKey: Guid(8f63c3cfa8dea284f848ba2efdd0c5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Bowler_Hat.fbx using Guid(8f63c3cfa8dea284f848ba2efdd0c5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2ee442f94c71d37268d184597d4564') in 0.029983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Box_Of_Nails.fbx
-  artifactKey: Guid(05664845be680b04ea7ab54272e8f37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Box_Of_Nails.fbx using Guid(05664845be680b04ea7ab54272e8f37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a109bd1a625dd6c16efd708e041d83') in 0.027914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Assault_Rifle_5,56_02.fbx
-  artifactKey: Guid(432928dd8e65ead4c905724ad047d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Assault_Rifle_5,56_02.fbx using Guid(432928dd8e65ead4c905724ad047d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6b214c60c564ca7d5f812e92f4ff67') in 0.064288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Models
-  artifactKey: Guid(a6d7e596e691dc549965cf0f23246f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models using Guid(a6d7e596e691dc549965cf0f23246f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93be3be1ddaae397fd06f5433376e2b') in 0.013497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Box.fbx
-  artifactKey: Guid(7a9a0d5e3c3a20a469f5690f8432dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Box.fbx using Guid(7a9a0d5e3c3a20a469f5690f8432dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68282a6d592f8336d007e66abcaaf1d6') in 0.029429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Assault_Rifle_5,45_02.fbx
-  artifactKey: Guid(b79de4cececfb364d9ea3e66ffd08ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Assault_Rifle_5,45_02.fbx using Guid(b79de4cececfb364d9ea3e66ffd08ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e29d87169825062c192e3e5e5e67cf') in 0.060643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Bonfire_01.fbx
-  artifactKey: Guid(c498a631fed69f64ea4bf26cf636f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Bonfire_01.fbx using Guid(c498a631fed69f64ea4bf26cf636f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e21d355bb0f01c2d1a16a5126c9ec60') in 0.030262 seconds 
+  Time since last request: 1740173.445264 seconds.
+  path: Assets/stylezed low poly props/Prefabs/Wall.prefab
+  artifactKey: Guid(2859e6fb01d75244db04d8058ddbf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/Wall.prefab using Guid(2859e6fb01d75244db04d8058ddbf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e52dbe46fb6dbd25720681995fc0d9c') in 0.335890 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Barrel_Closed_01.fbx
-  artifactKey: Guid(f4c51eb94082f9041ae127685ad2290e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Barrel_Closed_01.fbx using Guid(f4c51eb94082f9041ae127685ad2290e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58881a62bbdab8391ab16128b502e9e') in 0.027479 seconds 
+  path: Assets/stylezed low poly props/Prefabs/Tree3.prefab
+  artifactKey: Guid(412e772dd9b5e4a4bb4689c2cc36fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/Tree3.prefab using Guid(412e772dd9b5e4a4bb4689c2cc36fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab1f900a55e83413de938a77e3fd668') in 0.013630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Brilliant_Green.fbx
-  artifactKey: Guid(75081e9ffc221454a9db48b112ba37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Brilliant_Green.fbx using Guid(75081e9ffc221454a9db48b112ba37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325cad766b0d587ef3051838ed96bd9') in 0.030216 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/stylezed low poly props/Prefabs/krest.prefab
+  artifactKey: Guid(65bb21345d4f9ee4fb2933e981fdbdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/krest.prefab using Guid(65bb21345d4f9ee4fb2933e981fdbdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afebf8d91a5d57ae092f8db7a08bb6c1') in 0.012728 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Bayonet_Knife_5.56.fbx
-  artifactKey: Guid(789cfbdbca801aa40938d56054b130ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Bayonet_Knife_5.56.fbx using Guid(789cfbdbca801aa40938d56054b130ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139c78e05d6253333dbc6633b9032654') in 0.030902 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/stylezed low poly props/Prefabs/Ograda iz prutev.prefab
+  artifactKey: Guid(6e0c284cd4efece4abd0b2e38ef32e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/Ograda iz prutev.prefab using Guid(6e0c284cd4efece4abd0b2e38ef32e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad7f3c5b06e8db5126ed8533066ac65') in 0.013238 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polygon-Mega Survival/Models/Apple_01.fbx
-  artifactKey: Guid(f0abf75740b4565418b9d7aa5cc19ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygon-Mega Survival/Models/Apple_01.fbx using Guid(f0abf75740b4565418b9d7aa5cc19ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ade40c6602df7e98cccaf10e65a7f46') in 0.028576 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/stylezed low poly props/Prefabs/ammo.prefab
+  artifactKey: Guid(bc1108456adaa7846b5715febf55fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/ammo.prefab using Guid(bc1108456adaa7846b5715febf55fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dee9e086f44d105af8bd6fab4395b8') in 0.012494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/stylezed low poly props/Prefabs/DirtWithLopata.prefab
+  artifactKey: Guid(c2548e4f66ffd9a449e132c559ea96ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/DirtWithLopata.prefab using Guid(c2548e4f66ffd9a449e132c559ea96ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b9329e3b7e7702164ade6be910a5e6') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/stylezed low poly props/Prefabs/rocket.prefab
+  artifactKey: Guid(b9dea21dd498b894ea837d3b28ad3380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/rocket.prefab using Guid(b9dea21dd498b894ea837d3b28ad3380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd6f500c757a7b0d829cff04d3780b5') in 0.014946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/stylezed low poly props/Prefabs/ladder.prefab
+  artifactKey: Guid(99207b5994ce1764cbc8b0520e15382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/ladder.prefab using Guid(99207b5994ce1764cbc8b0520e15382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ea45990955190e23f54303c8cbb12') in 0.015572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/stylezed low poly props/Prefabs/floor.prefab
+  artifactKey: Guid(2def44bd99960ac48b0fdb350ef265a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/floor.prefab using Guid(2def44bd99960ac48b0fdb350ef265a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eea81c29d5418d23532516c0ad9dcb') in 0.016068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/stylezed low poly props
+  artifactKey: Guid(18a02b1c05e9d2f45a20870346470c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props using Guid(18a02b1c05e9d2f45a20870346470c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a485520f3141432a135ff88a74dd650') in 0.009675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/stylezed low poly props/Prefabs/box.prefab
+  artifactKey: Guid(0d76463840a57ec4899b2e19ff99c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/box.prefab using Guid(0d76463840a57ec4899b2e19ff99c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8011e0806132abe43c65d58d703116b') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/stylezed low poly props/Prefabs/Ograda.prefab
+  artifactKey: Guid(3a7a3c905ca8d3c44b97e49c221d2211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/Ograda.prefab using Guid(3a7a3c905ca8d3c44b97e49c221d2211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05e0bc703068d4d15cf393a60295b0e') in 0.014269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/stylezed low poly props/Prefabs/NadGrobie.prefab
+  artifactKey: Guid(01504ea0633bca549bd9568ab5f5c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylezed low poly props/Prefabs/NadGrobie.prefab using Guid(01504ea0633bca549bd9568ab5f5c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b886bcf9ecf84f94ef65bafd5bedf0') in 0.015411 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
