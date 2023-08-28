@@ -15,7 +15,7 @@ E:/Midnight-Snack/Midnight Snack
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52301
+64529
 Successfully changed project path to: E:/Midnight-Snack/Midnight Snack
 E:/Midnight-Snack/Midnight Snack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Midnight-Snack/Midnight Snack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [68812] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 3339344363 [EditorId] 3339344363 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18812] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 2920115811 [EditorId] 2920115811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [68812] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 3339344363 [EditorId] 3339344363 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18812] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 2920115811 [EditorId] 2920115811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,77 +67,77 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002306 seconds.
+Registered in 0.002090 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.487 seconds
+- Completed reload, in  0.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (487ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (538ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (46ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002657 seconds.
+Registered in 0.003599 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (751ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (543ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (167ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (166ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -146,13 +146,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.7 MB). Loaded Objects now: 3679.
-Memory consumption went from 148.9 MB to 147.2 MB.
-Total: 2.829300 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.085400 ms  DeleteObjects: 0.427700 ms)
+Memory consumption went from 148.8 MB to 147.2 MB.
+Total: 2.993300 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.184600 ms MarkObjects: 2.147400 ms  DeleteObjects: 0.402700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,25 +166,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1740216.084508 seconds.
-  path: Assets/Nollie Inward Game Assets
-  artifactKey: Guid(f75a7da8d1c50d842beb9baf5330c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nollie Inward Game Assets using Guid(f75a7da8d1c50d842beb9baf5330c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f6ebac749504f6b5f901e6b65bfc6') in 0.013846 seconds 
+  Time since last request: 279455.102403 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_03.prefab
+  artifactKey: Guid(08a8e231e104a97478fe533185b58347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_03.prefab using Guid(08a8e231e104a97478fe533185b58347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9ca964cd25f58346ed96359748daf2') in 0.124114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.823840 seconds.
-  path: Assets/Nollie Inward Game Assets/Padlock
-  artifactKey: Guid(d219f838e58f76b4eb755b05be82db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nollie Inward Game Assets/Padlock using Guid(d219f838e58f76b4eb755b05be82db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f894211c0e28aa5b889b92a55d40cd1') in 0.008593 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_03.prefab
+  artifactKey: Guid(983cece7829bc7f47b693c788d538c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_03.prefab using Guid(983cece7829bc7f47b693c788d538c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ab45ba15cc83a8566d200ae1901c31') in 0.018155 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.176953 seconds.
-  path: Assets/Nollie Inward Game Assets/Padlock/Prefabs
-  artifactKey: Guid(fda893fb49b25514b9d0d00f9963f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nollie Inward Game Assets/Padlock/Prefabs using Guid(fda893fb49b25514b9d0d00f9963f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c37c7eaa46e104d0f8c06af83ba2e1') in 0.001567 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_standing_box_01.prefab
+  artifactKey: Guid(6eaa1b0a42cb757499d4d42e25c27866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_standing_box_01.prefab using Guid(6eaa1b0a42cb757499d4d42e25c27866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae4a0cb4a84e2aa39888418101447d7') in 0.013668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.054161 seconds.
-  path: Assets/Nollie Inward Game Assets/Padlock/Prefabs/Padlock.prefab
-  artifactKey: Guid(5f39ae34e4c1ba4439f016d560e3c5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nollie Inward Game Assets/Padlock/Prefabs/Padlock.prefab using Guid(5f39ae34e4c1ba4439f016d560e3c5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bdd3c66477ebe69411bcb09b87d5fb') in 0.269233 seconds 
+  Time since last request: 106.386439 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_02.prefab
+  artifactKey: Guid(055f3f8eaebe5674d8b1a58bf916318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_02.prefab using Guid(055f3f8eaebe5674d8b1a58bf916318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8cd82f7c9b75021f308d335b16e55') in 0.032215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_02.prefab
+  artifactKey: Guid(4632b6137fa19da4d8aeeaf31e8c64ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_02.prefab using Guid(4632b6137fa19da4d8aeeaf31e8c64ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d2f1584ade91354c55faeb1776dcb3') in 0.013440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_03.prefab
+  artifactKey: Guid(98ff252786999ba46ab6f90fb4bc99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_03.prefab using Guid(98ff252786999ba46ab6f90fb4bc99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f353121ceb74d6e5739628423d26a7') in 0.015921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_07.prefab
+  artifactKey: Guid(480a42ece1f2e824eada89ac3e591823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_07.prefab using Guid(480a42ece1f2e824eada89ac3e591823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85b9c30c4a803cd25e72ce4a67d3a70') in 0.017819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_04.prefab
+  artifactKey: Guid(cd7e34db1421a984ca63d5ab64cc7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_04.prefab using Guid(cd7e34db1421a984ca63d5ab64cc7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9abe943587f72de0979160cbef8210') in 0.015317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_windowed_door.prefab
+  artifactKey: Guid(74e4a9e0455716c4a8b86c73e503c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_windowed_door.prefab using Guid(74e4a9e0455716c4a8b86c73e503c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52444ed4f88a18e46290b2a5c56e27b') in 0.017316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_03.prefab
+  artifactKey: Guid(d20e94ee739314f49ad37c99fc7ec53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_03.prefab using Guid(d20e94ee739314f49ad37c99fc7ec53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd65d37481f891e940dd8bfe9230843') in 0.016224 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

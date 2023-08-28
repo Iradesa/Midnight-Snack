@@ -15,7 +15,7 @@ E:/Midnight-Snack/Midnight Snack
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64529
+54599
 Successfully changed project path to: E:/Midnight-Snack/Midnight Snack
 E:/Midnight-Snack/Midnight Snack
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Midnight-Snack/Midnight Snack
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15420] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1883624156 [EditorId] 1883624156 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [49532] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 3002084730 [EditorId] 3002084730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15420] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 1883624156 [EditorId] 1883624156 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [49532] Host "[IP] 192.168.86.46 [Port] 0 [Flags] 2 [Guid] 3002084730 [EditorId] 3002084730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A8ITLFV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 83.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -62,97 +62,97 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
     Vendor:   NVIDIA
     VRAM:     12100 MB
-    Driver:   31.0.15.3179
+    Driver:   31.0.15.3699
 Initialize mono
 Mono path[0] = 'E:/Unity/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002246 seconds.
+Registered in 0.002030 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.492 seconds
+- Completed reload, in  0.473 seconds
 Domain Reload Profiling:
-	ReloadAssembly (493ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (363ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (355ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (235ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002865 seconds.
+Registered in 0.002515 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Midnight-Snack\Midnight Snack\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
+- Completed reload, in  0.723 seconds
 Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (564ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.7 MB). Loaded Objects now: 3679.
-Memory consumption went from 148.8 MB to 147.2 MB.
-Total: 3.039200 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.097200 ms MarkObjects: 2.211000 ms  DeleteObjects: 0.460000 ms)
+Memory consumption went from 148.9 MB to 147.2 MB.
+Total: 4.779500 ms (FindLiveObjects: 0.494300 ms CreateObjectMapping: 0.270500 ms MarkObjects: 3.381400 ms  DeleteObjects: 0.632200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,381 +164,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 279453.262999 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_01.prefab
-  artifactKey: Guid(1f4fd8bdf7de49a418b7391c990dd46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_01.prefab using Guid(1f4fd8bdf7de49a418b7391c990dd46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc2db237f87375722b4fce09e3786dc') in 0.132516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_basket.prefab
-  artifactKey: Guid(c0a17c8cb99bafc4f930c066d1acd414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_basket.prefab using Guid(c0a17c8cb99bafc4f930c066d1acd414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c60943afadf455ec7903e28eb4f96b8') in 0.013231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_007.prefab
-  artifactKey: Guid(dc719adf47cfb6f4980fac97612993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_007.prefab using Guid(dc719adf47cfb6f4980fac97612993d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa07245dfc9ceb226f0778e3674e8a5') in 0.017983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_02.prefab
-  artifactKey: Guid(6c7407acde2c83b45ad099f8c911acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_02.prefab using Guid(6c7407acde2c83b45ad099f8c911acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9c3fc5419d38f8c590f576e977d354') in 0.016484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_04.prefab
-  artifactKey: Guid(aa555d3ab30d808459d7f1cc5ce2c2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_04.prefab using Guid(aa555d3ab30d808459d7f1cc5ce2c2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a839d5bd716ab8f3c6ddbc70854f6a1') in 0.016935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_01.prefab
-  artifactKey: Guid(fa7057deb6daced429a1f766ad1d55b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_01.prefab using Guid(fa7057deb6daced429a1f766ad1d55b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a59b2eef8bdd9cd63d354b6365bc32a') in 0.017033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp.prefab
-  artifactKey: Guid(25c48915f5fe07d4a9af4c4aae2f6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp.prefab using Guid(25c48915f5fe07d4a9af4c4aae2f6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fefab5472bc4dd53950151490571102') in 0.025312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_02.prefab
-  artifactKey: Guid(94d37c158c66bd448880a67902ac0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_02.prefab using Guid(94d37c158c66bd448880a67902ac0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8142f25ea2d7e6ed9284b634320dd') in 0.012731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_02.prefab
-  artifactKey: Guid(8b1bd143a17449e41877f4bd248a3987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_02.prefab using Guid(8b1bd143a17449e41877f4bd248a3987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d99b94f129f380519a650e53c905b') in 0.017029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_01.prefab
-  artifactKey: Guid(034a89e901a1c5e40b2fe34af53fd5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_01.prefab using Guid(034a89e901a1c5e40b2fe34af53fd5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5166a2f3ff060a65497cdc4381a798') in 0.015768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_03.prefab
-  artifactKey: Guid(78d5c29523a39a04098c4bc523138908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_03.prefab using Guid(78d5c29523a39a04098c4bc523138908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60281e7721b2c6ea42bfabc4823db3e4') in 0.016946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_01.prefab
-  artifactKey: Guid(8af2ffd069e497446b2f60e4f0a07ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_01.prefab using Guid(8af2ffd069e497446b2f60e4f0a07ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e3781058922527fa3b1391e9ef761b') in 0.013971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_01.prefab
-  artifactKey: Guid(723ccc0fbecf1c740838573d1290780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_01.prefab using Guid(723ccc0fbecf1c740838573d1290780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe12c53e2451edde9055eacfa61db09') in 0.012315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_column_03.prefab
-  artifactKey: Guid(da26cdcc789d2c64a8e750905fcd3279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_column_03.prefab using Guid(da26cdcc789d2c64a8e750905fcd3279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec9bd1c7efc6f5e0c81f2b3e56b578') in 0.017528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_cash_register.prefab
-  artifactKey: Guid(9aab89853ac2bc74394b41dbfa90cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_cash_register.prefab using Guid(9aab89853ac2bc74394b41dbfa90cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3ff7e83efb829e62c29b6eece6b64e') in 0.012991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag.prefab
-  artifactKey: Guid(1a313aa60b7079f408135972de93e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag.prefab using Guid(1a313aa60b7079f408135972de93e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ecab41a74e4f6e19a65ac7d8c20349') in 0.010900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp_head.prefab
-  artifactKey: Guid(df2f1ba57474b1447bc56cc5640acfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp_head.prefab using Guid(df2f1ba57474b1447bc56cc5640acfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7a810648e2fe5e9ca459c2f2881a76') in 0.017453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_01.prefab
-  artifactKey: Guid(d365c51f5658f7941bce1ef0329ee119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_01.prefab using Guid(d365c51f5658f7941bce1ef0329ee119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17abfb4991ea4673c7e4efb9df333f94') in 0.016051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_01.prefab
-  artifactKey: Guid(f616426e21703774abde4f588f43b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_01.prefab using Guid(f616426e21703774abde4f588f43b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ddfcc0d4c379810a809e4b3984cdc7') in 0.016341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_column_01.prefab
-  artifactKey: Guid(eb07182bb2ef4364cb071aa0045d582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_column_01.prefab using Guid(eb07182bb2ef4364cb071aa0045d582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce63ec34c5f4af6b7e28fd99402a5af') in 0.015873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_04.prefab
-  artifactKey: Guid(48a29c318cf773d45b6fe0026e2393dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_04.prefab using Guid(48a29c318cf773d45b6fe0026e2393dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ac65367e6396fb39808fccb94e53ff') in 0.013097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_02.prefab
-  artifactKey: Guid(644ddec18997b5148bbb85dd574c3d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_02.prefab using Guid(644ddec18997b5148bbb85dd574c3d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aadfef58837dba3341beb24a0b323e') in 0.013428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_desk_bin.prefab
-  artifactKey: Guid(b1ed9e688e7896b4aab55fc5d414cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_desk_bin.prefab using Guid(b1ed9e688e7896b4aab55fc5d414cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b0b3cd5311f07d43ecdc8de9917bf6') in 0.017927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_02.prefab
-  artifactKey: Guid(464ec4bb61849c842ba9e82643b4d4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_02.prefab using Guid(464ec4bb61849c842ba9e82643b4d4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9a7c8e00b414317d5c0cc1bed7a70a') in 0.011467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_06.prefab
-  artifactKey: Guid(61a7945a51dc6284e82f74b79d80558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_06.prefab using Guid(61a7945a51dc6284e82f74b79d80558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ae013b4d966879f37609007fe340ec') in 0.014705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box001.prefab
-  artifactKey: Guid(fe5a26030c0689c4993e5e0a7eca820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box001.prefab using Guid(fe5a26030c0689c4993e5e0a7eca820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8769ea56550f79c666f6277e7f139b41') in 0.015015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_01.prefab
-  artifactKey: Guid(591795a09afee3640b311cacb2269aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_01.prefab using Guid(591795a09afee3640b311cacb2269aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd734cc403348f5fe081c10079fcb9db1') in 0.012148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_03.prefab
-  artifactKey: Guid(909fcae0af095a049834012c9605fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_03.prefab using Guid(909fcae0af095a049834012c9605fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa5aabd383d8e107afd53d3fa31a962') in 0.014482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_02.prefab
-  artifactKey: Guid(9fc34831e3ce91645ad748aba845ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_02.prefab using Guid(9fc34831e3ce91645ad748aba845ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4792cf1b44e0c40aa9c870bf8a749c51') in 0.017530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_05.prefab
-  artifactKey: Guid(9d4708c5d80ae234cb2edee464bbc545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_05.prefab using Guid(9d4708c5d80ae234cb2edee464bbc545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91936836f2a07033f6fdfb133d817b6') in 0.016271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_02.prefab
-  artifactKey: Guid(7cdf3e18206e3464686b51f0467e3462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_02.prefab using Guid(7cdf3e18206e3464686b51f0467e3462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e7eb8034a5dec9fabdfbcbb6de4ab7') in 0.016161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_01.prefab
-  artifactKey: Guid(d9ed9285681277248858f65e330a7583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_01.prefab using Guid(d9ed9285681277248858f65e330a7583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c3406b49cfbf28631cb40d69c31d99') in 0.016934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_02.prefab
-  artifactKey: Guid(ebc4c3f94da2ac1438eb5f2e70bd19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_02.prefab using Guid(ebc4c3f94da2ac1438eb5f2e70bd19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc2ef3870e22e81ccc6bfe3ea7bc4bc') in 0.012712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge.prefab
-  artifactKey: Guid(9a50d690579271f4d8c37b0f3475189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge.prefab using Guid(9a50d690579271f4d8c37b0f3475189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e52aad387dac4a0e045b4014ebc3704') in 0.015359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_05.prefab
-  artifactKey: Guid(e6ad6556b7acf4a4f8b27349efd5f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_05.prefab using Guid(e6ad6556b7acf4a4f8b27349efd5f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4790e559c16b50736b6d7a402bee05e2') in 0.017033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_03.prefab
-  artifactKey: Guid(4009572748e2ad54b95245ea01313a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_03.prefab using Guid(4009572748e2ad54b95245ea01313a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777d9bce1c0087daa716ae0fb1b6f301') in 0.013529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_01.prefab
-  artifactKey: Guid(4d52a5355183bfb4e871d5858c6ba3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_01.prefab using Guid(4d52a5355183bfb4e871d5858c6ba3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7084bca772934d177d4306d6bc85a51c') in 0.017854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_large.prefab
-  artifactKey: Guid(9d78671650d6bba40ba88f228662d4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_large.prefab using Guid(9d78671650d6bba40ba88f228662d4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53349ca348f203ac4c4da55437d9328b') in 0.014956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_05.prefab
-  artifactKey: Guid(994a6d2403d284847bf1a407668c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_05.prefab using Guid(994a6d2403d284847bf1a407668c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030312d31fac0b21e44290870ca4f952') in 0.013761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.585172 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_showcase.prefab
-  artifactKey: Guid(33b032772ccb35449b967c86e0d1ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_showcase.prefab using Guid(33b032772ccb35449b967c86e0d1ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9734f02ffdaea89ba21d3da337577') in 0.016096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_scanner.prefab
-  artifactKey: Guid(8bd44ed6bc8ab84458464e3e3fe2206c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_scanner.prefab using Guid(8bd44ed6bc8ab84458464e3e3fe2206c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bfa09ee0e48f175e3c5c34f08fb668') in 0.010537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_01.prefab
-  artifactKey: Guid(381bcaf2102da834aa376a2018c5b5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_01.prefab using Guid(381bcaf2102da834aa376a2018c5b5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480f71fae8c9eaf3105e118216c2a7cf') in 0.012258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_shpping_rack.prefab
-  artifactKey: Guid(c7865dcd636a48946867c535d4515a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_shpping_rack.prefab using Guid(c7865dcd636a48946867c535d4515a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12b7fd9ced0812fbec2ddd0b0137cc7') in 0.017994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_01.prefab
-  artifactKey: Guid(3edd6500710cfa44ea084cd6af4d883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_01.prefab using Guid(3edd6500710cfa44ea084cd6af4d883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee7f422625b03a7d5fe958736c812f') in 0.015837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_02.prefab
-  artifactKey: Guid(735e056f699a7be469c4031359a8e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_02.prefab using Guid(735e056f699a7be469c4031359a8e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f15fa87e8702089b6fe9846f87f5ba9') in 0.015566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_roll_invoice.prefab
-  artifactKey: Guid(b95f732616aeb8f4382bae07aae3d7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_roll_invoice.prefab using Guid(b95f732616aeb8f4382bae07aae3d7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaf47d04c43f1012b9b12f12699f0be') in 0.016750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_side_bld.prefab
-  artifactKey: Guid(3bfb58410e60908419f229eef77042b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_side_bld.prefab using Guid(3bfb58410e60908419f229eef77042b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a166b94bff956f977dc4b1cbcc44fc') in 0.023895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_shelves_var_01.prefab
-  artifactKey: Guid(62dfa8b8ea6b943409dbdaa61b6b13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_shelves_var_01.prefab using Guid(62dfa8b8ea6b943409dbdaa61b6b13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e33e2460a588ee10352ce4ebc7078') in 0.013169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.201457 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_05.prefab
-  artifactKey: Guid(2f7b3f2ba79d3a44381018c32ff5fec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_05.prefab using Guid(2f7b3f2ba79d3a44381018c32ff5fec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48673b8d4593edf40d658a54fbf874b') in 0.013230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_01.prefab
-  artifactKey: Guid(d0641dc1153de0046b1b09e6650706b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_01.prefab using Guid(d0641dc1153de0046b1b09e6650706b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cf10bdee65eae5f60a78fc30e77a1c') in 0.011085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_storefront_mall.prefab
-  artifactKey: Guid(2826238087d62dd4bb1be9e870cc23b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_storefront_mall.prefab using Guid(2826238087d62dd4bb1be9e870cc23b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba1c50a000448524dbf5027796141f3') in 0.018353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_transformator.prefab
-  artifactKey: Guid(bf5343e0b4ba3434d828a97c83a89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_transformator.prefab using Guid(bf5343e0b4ba3434d828a97c83a89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91509fefd779e148afdb23f12b519045') in 0.017153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_04.prefab
-  artifactKey: Guid(1d58e973a49462d48a79d9f0abb69628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_04.prefab using Guid(1d58e973a49462d48a79d9f0abb69628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb56040059bd984c8dbc9bdafb49d93') in 0.019010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_02.prefab
-  artifactKey: Guid(038ac4d86f9518d4498bf880b92f2ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_02.prefab using Guid(038ac4d86f9518d4498bf880b92f2ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdf31f14ebba9929c1521bf5fa0cb6d') in 0.017650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_03.prefab
-  artifactKey: Guid(a06273094ec7fc647a763301ba1ad8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_03.prefab using Guid(a06273094ec7fc647a763301ba1ad8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04178fc6b365d552d72a4422ba494f3') in 0.017194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_store_inside.prefab
-  artifactKey: Guid(915e010ec47b21b46994dd92aabc6fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_store_inside.prefab using Guid(915e010ec47b21b46994dd92aabc6fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9612418d98563c9c62ea3210ae065d') in 0.016150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 106.401357 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_01.prefab
-  artifactKey: Guid(8af3e9781dc473c49b5ac676cd9fa552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_01.prefab using Guid(8af3e9781dc473c49b5ac676cd9fa552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16682a71153587ed41b3ac67215113bf') in 0.017591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_glass.prefab
-  artifactKey: Guid(bfa6621689850c74d8ba080eda4d4673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_glass.prefab using Guid(bfa6621689850c74d8ba080eda4d4673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848e3840dd188453f43b1a98d34a7b96') in 0.020870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_06.prefab
-  artifactKey: Guid(783df93c324759b46af4ee6528513c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_06.prefab using Guid(783df93c324759b46af4ee6528513c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfd6270ddf7fa5746bcb69336fb0cf3') in 0.010369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_02.prefab
-  artifactKey: Guid(7a4ea6c66a385eb4ba493d0ded813809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_02.prefab using Guid(7a4ea6c66a385eb4ba493d0ded813809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed3870f55b78844422921ec0aea6ab') in 0.016191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_02.prefab
-  artifactKey: Guid(122bec8914ff6ea4faecce6af222dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_02.prefab using Guid(122bec8914ff6ea4faecce6af222dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f52d0be6f43688f54cbcec96225366') in 0.018286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_01.prefab
-  artifactKey: Guid(def1469deaf245f4e8f156e06bbdfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_01.prefab using Guid(def1469deaf245f4e8f156e06bbdfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba690cf498b5aa1894970f595ce33621') in 0.014515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_01.prefab
-  artifactKey: Guid(307b5e55e85a1e24588f275f6213beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_01.prefab using Guid(307b5e55e85a1e24588f275f6213beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cedaf225f42247a5520c5ec8a3b557') in 0.015644 seconds 
